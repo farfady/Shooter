@@ -1,0 +1,1398 @@
+﻿Log file open, 05/19/15 13:48:28
+LogInit:Display: Running engine for game: Shooter
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: D:/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.19-17.48.28:124][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.19-17.48.28:192][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.19-17.48.28:213][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.19-17.48.28:225][  0]LogInit: Object subsystem initialized
+[2015.05.19-17.48.28:227][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.19-17.48.28:227][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.19-17.48.28:227][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.19-17.48.28:227][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.19-17.48.28:227][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.19-17.48.28:227][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.19-17.48.28:228][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.19-17.48.28:228][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.19-17.48.28:236][  0]LogInit: Computer: MSI-GUILLAUME
+[2015.05.19-17.48.28:236][  0]LogInit: User: guillaume
+[2015.05.19-17.48.28:236][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.19-17.48.28:236][  0]LogInit: High frequency timer resolution =2.435777 MHz
+[2015.05.19-17.48.28:236][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2015.05.19-17.48.28:236][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.19-17.48.28:236][  0]LogMemory: Process Physical Memory: 46.85 MB used, 46.85 MB peak
+[2015.05.19-17.48.28:236][  0]LogMemory: Process Virtual Memory: 27.36 MB used, 27.36 MB peak
+[2015.05.19-17.48.28:236][  0]LogMemory: Physical Memory: 4021.74 MB used, 16336.83 MB total
+[2015.05.19-17.48.28:236][  0]LogMemory: Virtual Memory: 300.68 MB used, 134217728.00 MB total
+[2015.05.19-17.48.28:277][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M    (Feature Level 11_0)
+[2015.05.19-17.48.28:277][  0]LogD3D11RHI: Adapter has 5980MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 1 output[s]
+[2015.05.19-17.48.28:280][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.19-17.48.28:280][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.19-17.48.28:280][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.19-17.48.28:284][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.19-17.48.28:300][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.19-17.48.28:416][  0]LogTextLocalizationManager: The requested culture ('fr_CA') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.05.19-17.48.28:519][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.19-17.48.28:519][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.19-17.48.28:610][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.19-17.48.30:819][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.19-17.48.31:501][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.19-17.48.31:548][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.19-17.48.31:585][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/guillaume/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.19-17.48.31:585][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/guillaume/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.19-17.48.31:585][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/guillaume/Documents/Unreal Projects/Shooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.19-17.48.31:585][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.19-17.48.31:691][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.19-17.48.31:703][  0]LogDerivedDataCache: Using Local data cache path C:/Users/guillaume/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.19-17.48.31:946][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.19-17.48.31:947][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.19-17.48.32:697][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.19-17.48.32:754][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.19-17.48.33:435][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.19-17.48.33:639][  0]SourceControl: Info Source control is disabled
+[2015.05.19-17.48.33:639][  0]SourceControl: Info Source control is disabled
+[2015.05.19-17.48.33:639][  0]SourceControl: Info Source control is disabled
+[2015.05.19-17.48.33:645][  0]SourceControl: Info Source control is disabled
+[2015.05.19-17.48.33:784][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.19-17.48.33:784][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.19-17.48.33:853][  0]LogEngine: Initializing Engine...
+[2015.05.19-17.48.37:044][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.19-17.48.37:053][  0]LogInit: FAudioDevice initialized.
+[2015.05.19-17.48.37:079][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.19-17.48.37:099][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/guillaume/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.19-17.48.37:101][  0]LogInit: Texture streaming: Enabled
+[2015.05.19-17.48.37:172][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.19-17.48.37:172][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.19-17.48.37:172][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.19-17.48.37:173][  0]LogAnalytics: SetUserId e3487cae44029761e470c8b4123de03d|c7a288572b714f9898c556981a74ab33|66f320fe-673b-44ee-aa7f-b0a8f0fff000
+[2015.05.19-17.48.37:173][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.19-17.48.37:192][  0]LogInit: Transaction tracking system initialized
+[2015.05.19-17.48.37:317][  0]BlueprintLog: New page: Editor Load
+[2015.05.19-17.48.37:346][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.05.19-17.48.37:346][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.19-17.48.38:070][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.19-17.48.38:646][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.19-17.48.38:867][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.19-17.48.38:867][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.19-17.48.38:904][  0]LogConsoleResponse:Display: 
+[2015.05.19-17.48.39:288][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.19-17.48.39:426][  0]SourceControl: Info Source control is disabled
+[2015.05.19-17.48.39:426][  0]Cmd: MAP LOAD FILE="C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.19-17.48.39:429][  0]LightingResults: New page: Lighting Build
+[2015.05.19-17.48.39:438][  0]MapCheck: New page: Map Check
+[2015.05.19-17.48.39:438][  0]LightingResults: New page: Lighting Build
+[2015.05.19-17.48.39:447][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018E7A52980
+[2015.05.19-17.48.39:483][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.19-17.48.42:603][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.19-17.48.43:481][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-17.48.43:522][  0]Cmd: MAP CHECKDEP
+[2015.05.19-17.48.43:522][  0]MapCheck: New page: FirstPersonExampleMap - May 19, 2015, 9:48:43 AM
+[2015.05.19-17.48.43:632][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.997ms to complete.
+[2015.05.19-17.48.43:632][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.205
+[2015.05.19-17.48.44:137][  0]LogCollectionManager: Loaded 0 collections in 0.003638 seconds
+[2015.05.19-17.48.44:162][  0]LogContentBrowser: Native class hierarchy populated in 0.0239 seconds. Added 1696 classes and 261 folders.
+[2015.05.19-17.48.44:339][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0029 seconds. Added 1 classes and 2 folders.
+[2015.05.19-17.48.44:838][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.19-17.48.44:875][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.19-17.48.44:890][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.19-17.48.44:954][  0]LogLoad: Full Startup: 18.59 seconds (BP compile: 1.23 seconds)
+[2015.05.19-17.48.45:029][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.19-17.48.45:558][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.19-17.48.45:925][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2015.05.19-17.48.46:897][  5]LogAssetRegistry: Asset discovery search completed in 9.5620 seconds
+[2015.05.19-17.49.54:141][840]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.19-17.49.54:142][840]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 9:49:54 AM)
+[2015.05.19-17.49.54:174][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031288s)
+[2015.05.19-17.49.54:177][840]LogPlayLevel: PIE: World Init took: (0.003590s)
+[2015.05.19-17.49.54:178][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035396s)
+[2015.05.19-17.49.54:755][840]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-17.49.54:851][840]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-17.49.54:866][840]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.19-13.49.54
+[2015.05.19-17.49.54:886][840]LogWorld: Bringing up level for play took: 0.034304
+[2015.05.19-17.49.54:984][840]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.83
+[2015.05.19-17.50.28:337][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-17.50.28:338][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.19-17.50.28:379][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018952E1300
+[2015.05.19-17.52.48:756][426]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.19-17.52.48:756][426]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 9:52:48 AM)
+[2015.05.19-17.52.48:777][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020631s)
+[2015.05.19-17.52.48:778][426]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2015.05.19-17.52.48:778][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021452s)
+[2015.05.19-17.52.49:108][426]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-17.52.49:110][426]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-17.52.49:120][426]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.19-13.52.49
+[2015.05.19-17.52.49:121][426]LogWorld: Bringing up level for play took: 0.010072
+[2015.05.19-17.52.49:211][426]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.057
+[2015.05.19-17.52.49:237][426]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:16745).
+[2015.05.19-17.53.07:381][432]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.19-17.53.07:381][432]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-17.53.07:402][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000189E6DEA20
+[2015.05.19-17.59.33:790][956]LogSavePackage: Save=1874.446167ms
+[2015.05.19-17.59.33:790][956]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap_Auto1185AC98D41B52825C92F6FB68FDF24D8.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.05.19-17.59.33:798][956]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.267
+[2015.05.19-17.59.33:798][956]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.267
+[2015.05.19-17.59.33:832][956]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.05.19-17.59.33:894][956]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2015.05.19-17.59.33:894][956]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.05.19-17.59.34:824][956]LogSavePackage: Save=919.147766ms
+[2015.05.19-17.59.34:825][956]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonCharacter_Auto1B960F3634769B36A36E6028C60892934.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2015.05.19-17.59.34:838][956]LogFileHelpers: Auto-saving content packages took 1.041
+[2015.05.19-18.01.30:797][311]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.19-18.01.30:797][311]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:01:30 AM)
+[2015.05.19-18.01.30:826][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027799s)
+[2015.05.19-18.01.30:826][311]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2015.05.19-18.01.30:827][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028844s)
+[2015.05.19-18.01.30:889][311]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.01.30:891][311]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.01.30:900][311]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.19-14.01.30
+[2015.05.19-18.01.30:901][311]LogWorld: Bringing up level for play took: 0.009696
+[2015.05.19-18.01.30:986][311]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.168
+[2015.05.19-18.01.36:789][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-18.01.36:808][587]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000189E6DFC40
+[2015.05.19-18.01.51:464][485]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.01.51:818][485]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.01.52:086][485]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.01.52:174][485]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.01.52:236][485]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.01.52:300][485]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.01.52:521][485]LogPlayLevel: PIE:  Blueprint regeneration took 1056 ms (5 blueprints)
+[2015.05.19-18.01.52:521][485]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:01:52 AM)
+[2015.05.19-18.01.52:550][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028401s)
+[2015.05.19-18.01.52:551][485]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2015.05.19-18.01.52:551][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029171s)
+[2015.05.19-18.01.52:605][485]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.01.52:607][485]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.01.52:615][485]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.19-14.01.52
+[2015.05.19-18.01.52:615][485]LogWorld: Bringing up level for play took: 0.007485
+[2015.05.19-18.01.52:629][485]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.475
+[2015.05.19-18.01.53:001][485]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:055][486]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:081][487]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:092][488]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:103][489]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:115][490]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:136][491]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:155][492]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:170][493]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:184][494]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:199][495]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:213][496]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:224][497]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:235][498]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:246][499]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:257][500]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:268][501]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:279][502]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.01.53:290][503]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.02.30:054][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A641C7C0
+[2015.05.19-18.10.19:014][773]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-18.10.19:014][773]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.19-18.10.20:898][773]LogSavePackage: Save=1736.996460ms
+[2015.05.19-18.10.20:898][773]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap_Auto25B9CCF7540686276C324F2926B2144CF.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2015.05.19-18.10.20:905][773]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.891
+[2015.05.19-18.10.20:905][773]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.891
+[2015.05.19-18.10.20:938][773]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.05.19-18.10.20:978][773]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2015.05.19-18.10.20:978][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.05.19-18.10.21:976][773]LogSavePackage: Save=982.078796ms
+[2015.05.19-18.10.21:978][773]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonCharacter_Auto25EB632424E8F6CEAA7F84AB1735ECE81.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2015.05.19-18.10.21:991][773]LogFileHelpers: Auto-saving content packages took 1.087
+[2015.05.19-18.17.37:415][741]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.17.37:424][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-18.17.37:453][741]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.17.37:707][741]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.17.37:760][741]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.17.37:815][741]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.17.37:879][741]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.17.37:957][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000189710CC20
+[2015.05.19-18.17.37:964][741]LogPlayLevel: PIE:  Blueprint regeneration took 549 ms (5 blueprints)
+[2015.05.19-18.17.37:964][741]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:17:37 AM)
+[2015.05.19-18.17.37:987][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022539s)
+[2015.05.19-18.17.37:988][741]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2015.05.19-18.17.37:988][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023824s)
+[2015.05.19-18.17.38:040][741]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.17.38:042][741]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.17.38:049][741]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-14.17.38
+[2015.05.19-18.17.38:050][741]LogWorld: Bringing up level for play took: 0.007114
+[2015.05.19-18.17.38:052][741]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.898
+[2015.05.19-18.17.56:153][774]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-18.17.56:225][775]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000189CBA4900
+[2015.05.19-18.18.50:407][933]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.18.50:446][933]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.18.50:694][933]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.18.50:748][933]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.18.50:799][933]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.18.50:864][933]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.18.50:996][933]LogPlayLevel: PIE:  Blueprint regeneration took 589 ms (5 blueprints)
+[2015.05.19-18.18.50:996][933]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:18:50 AM)
+[2015.05.19-18.18.51:055][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059123s)
+[2015.05.19-18.18.51:057][933]LogPlayLevel: PIE: World Init took: (0.001780s)
+[2015.05.19-18.18.51:058][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.061551s)
+[2015.05.19-18.18.51:170][933]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.18.51:175][933]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.18.51:192][933]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-14.18.51
+[2015.05.19-18.18.51:193][933]LogWorld: Bringing up level for play took: 0.017275
+[2015.05.19-18.18.51:219][933]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.065
+[2015.05.19-18.18.51:451][933]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:502][934]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:532][935]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:568][936]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:585][937]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:613][938]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:639][939]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:681][940]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:701][941]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:718][942]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:738][943]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:756][944]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:769][945]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:786][946]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:808][947]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:827][948]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:847][949]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:860][950]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.18.51:876][951]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.19.35:277][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000189CBA44A0
+[2015.05.19-18.20.10:221][811]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.20.10:257][811]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.20.10:505][811]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.20.10:555][811]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.20.10:607][811]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.20.10:670][811]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.20.10:751][811]LogPlayLevel: PIE:  Blueprint regeneration took 529 ms (5 blueprints)
+[2015.05.19-18.20.10:751][811]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:20:10 AM)
+[2015.05.19-18.20.10:773][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022259s)
+[2015.05.19-18.20.10:774][811]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2015.05.19-18.20.10:774][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023246s)
+[2015.05.19-18.20.10:837][811]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.20.10:842][811]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.20.10:865][811]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-14.20.10
+[2015.05.19-18.20.10:867][811]LogWorld: Bringing up level for play took: 0.023456
+[2015.05.19-18.20.10:901][811]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.254
+[2015.05.19-18.20.11:143][811]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:219][812]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:254][813]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:278][814]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:297][815]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:314][816]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:332][817]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:376][818]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:410][819]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:438][820]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:458][821]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:475][822]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:491][823]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:508][824]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:526][825]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:542][826]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:559][827]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:576][828]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.11:592][829]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.14:033][903]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A6246D40
+[2015.05.19-18.20.41:029][754]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.20.41:065][754]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.20.41:349][754]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.20.41:402][754]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.20.41:502][754]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.20.41:613][754]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.20.41:715][754]LogPlayLevel: PIE:  Blueprint regeneration took 685 ms (5 blueprints)
+[2015.05.19-18.20.41:716][754]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:20:41 AM)
+[2015.05.19-18.20.41:739][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023416s)
+[2015.05.19-18.20.41:740][754]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2015.05.19-18.20.41:740][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024228s)
+[2015.05.19-18.20.41:797][754]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.20.41:800][754]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.20.41:807][754]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-14.20.41
+[2015.05.19-18.20.41:808][754]LogWorld: Bringing up level for play took: 0.007538
+[2015.05.19-18.20.41:819][754]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.665
+[2015.05.19-18.20.42:071][754]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:130][755]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:161][756]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:177][757]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:194][758]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:214][759]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:236][760]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:252][761]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:267][762]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:286][763]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:298][764]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:315][765]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:332][766]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:348][767]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:365][768]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:382][769]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:398][770]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:415][771]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.42:432][772]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.20.52:052][319]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A2374D60
+[2015.05.19-18.29.49:932][901]LogEditorTransaction: Undo Create Pin Link
+[2015.05.19-18.31.32:537][543]LogSavePackage: Save=1792.522095ms
+[2015.05.19-18.31.32:537][543]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap_Auto38A4521A245BAF5BB468BE39CE42D889C.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2015.05.19-18.31.32:543][543]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.910
+[2015.05.19-18.31.32:543][543]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.910
+[2015.05.19-18.31.32:577][543]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.05.19-18.31.32:631][543]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2015.05.19-18.31.32:631][543]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.05.19-18.31.33:681][543]LogSavePackage: Save=1040.773804ms
+[2015.05.19-18.31.33:682][543]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonCharacter_Auto36A1749D44C2BC6D799EE1F98543CFF47.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset'
+[2015.05.19-18.31.33:695][543]LogFileHelpers: Auto-saving content packages took 1.151
+[2015.05.19-18.35.48:328][875]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.35.48:337][875]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-18.35.48:365][875]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.35.48:892][875]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.35.48:945][875]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.35.49:000][875]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.35.49:064][875]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.35.49:146][875]LogPlayLevel: PIE:  Blueprint regeneration took 818 ms (5 blueprints)
+[2015.05.19-18.35.49:147][875]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:35:49 AM)
+[2015.05.19-18.35.49:170][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022779s)
+[2015.05.19-18.35.49:171][875]LogPlayLevel: PIE: World Init took: (0.001184s)
+[2015.05.19-18.35.49:171][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024191s)
+[2015.05.19-18.35.49:233][875]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.35.49:237][875]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.35.49:248][875]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.19-14.35.49
+[2015.05.19-18.35.49:249][875]LogWorld: Bringing up level for play took: 0.010768
+[2015.05.19-18.35.49:252][875]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.098
+[2015.05.19-18.35.50:425][  4]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-18.35.50:457][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000189A104E00
+[2015.05.19-18.38.38:734][ 35]LogTexture:Display: Building textures: T_Brick_Clay_New_D (AutoDXT)
+[2015.05.19-18.38.42:653][ 35]LogTexture:Display: Building textures: T_Brick_Clay_New_M (AutoDXT)
+[2015.05.19-18.38.46:858][ 35]LogTexture:Display: Building textures: T_Brick_Clay_New_N (BC5)
+[2015.05.19-18.38.47:441][ 35]LogTexture:Display: Building textures: T_Detail_Rocky_N (BC5)
+[2015.05.19-18.38.47:571][ 35]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2015.05.19-18.38.54:716][757]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.38.54:753][757]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.38.55:013][757]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.38.55:066][757]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.38.55:121][757]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.38.55:186][757]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.38.55:272][757]LogPlayLevel: PIE:  Blueprint regeneration took 556 ms (5 blueprints)
+[2015.05.19-18.38.55:272][757]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:38:55 AM)
+[2015.05.19-18.38.55:295][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022413s)
+[2015.05.19-18.38.55:296][757]LogPlayLevel: PIE: World Init took: (0.001206s)
+[2015.05.19-18.38.55:297][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024039s)
+[2015.05.19-18.38.55:343][757]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.38.55:345][757]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.38.55:352][757]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.19-14.38.55
+[2015.05.19-18.38.55:353][757]LogWorld: Bringing up level for play took: 0.007449
+[2015.05.19-18.38.55:365][757]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.211
+[2015.05.19-18.38.55:555][757]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:609][758]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:631][759]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:651][760]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:667][761]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:678][762]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:691][763]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:706][764]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:726][765]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:739][766]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:753][767]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:766][768]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:776][769]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:787][770]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:798][771]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:809][772]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:822][773]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:835][774]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.38.55:848][775]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.00:924][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000189A105080
+[2015.05.19-18.39.19:252][397]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.39.19:288][397]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.39.19:550][397]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.39.19:604][397]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.39.19:662][397]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.39.19:747][397]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.39.19:837][397]LogPlayLevel: PIE:  Blueprint regeneration took 584 ms (5 blueprints)
+[2015.05.19-18.39.19:837][397]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:39:19 AM)
+[2015.05.19-18.39.19:858][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020906s)
+[2015.05.19-18.39.19:859][397]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2015.05.19-18.39.19:859][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021871s)
+[2015.05.19-18.39.19:908][397]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.39.19:910][397]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.39.19:917][397]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.19-14.39.19
+[2015.05.19-18.39.19:917][397]LogWorld: Bringing up level for play took: 0.007095
+[2015.05.19-18.39.19:929][397]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.775
+[2015.05.19-18.39.20:120][397]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:172][398]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:191][399]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:204][400]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:218][401]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:229][402]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:240][403]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:253][404]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:268][405]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:279][406]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:292][407]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:304][408]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:314][409]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:323][410]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:332][411]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:342][412]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:351][413]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:363][414]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.20:373][415]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.39.26:443][ 27]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A1BD2020
+[2015.05.19-18.39.31:421][598]LogTexture:Display: Building textures: T_Bush_N (BC5)
+[2015.05.19-18.39.31:457][598]LogTexture:Display: Building textures: T_Bush_D (AutoDXT)
+[2015.05.19-18.39.31:729][598]LogMaterial: Missing cached shader map for material M_Bush, compiling. 
+[2015.05.19-18.41.50:270][906]LogSavePackage: Save=1659.040649ms
+[2015.05.19-18.41.50:270][906]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap_Auto4BD7FC4974E16AA2E91AE488C4F359403.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2015.05.19-18.41.50:277][906]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.781
+[2015.05.19-18.41.50:277][906]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.781
+[2015.05.19-18.41.50:312][906]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.05.19-18.41.50:342][906]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2015.05.19-18.41.50:342][906]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.05.19-18.41.51:233][906]LogSavePackage: Save=883.028687ms
+[2015.05.19-18.41.51:234][906]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonCharacter_Auto49E70ADCC4E5AB5DA14E3D6BF97729DBB.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset'
+[2015.05.19-18.41.51:245][906]LogFileHelpers: Auto-saving content packages took 0.969
+[2015.05.19-18.43.01:225][206]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.43.01:233][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-18.43.01:263][206]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.43.01:523][206]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.43.01:579][206]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.43.01:634][206]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.43.01:697][206]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.43.01:783][206]LogPlayLevel: PIE:  Blueprint regeneration took 557 ms (5 blueprints)
+[2015.05.19-18.43.01:783][206]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:43:01 AM)
+[2015.05.19-18.43.01:805][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021887s)
+[2015.05.19-18.43.01:807][206]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2015.05.19-18.43.01:807][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023295s)
+[2015.05.19-18.43.01:860][206]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.43.01:862][206]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.43.01:869][206]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.19-14.43.01
+[2015.05.19-18.43.01:870][206]LogWorld: Bringing up level for play took: 0.007355
+[2015.05.19-18.43.01:881][206]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.727
+[2015.05.19-18.43.02:075][206]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:127][207]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:162][208]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:180][209]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:201][210]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:225][211]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:242][212]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:260][213]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:273][214]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:283][215]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:293][216]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:302][217]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:312][218]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:322][219]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:334][220]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:347][221]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:356][222]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:368][223]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.02:378][224]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.43.11:403][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A2146B60
+[2015.05.19-18.48.41:790][482]LogTexture:Display: Building textures: T_Door_M (DXT1)
+[2015.05.19-18.48.42:297][482]LogTexture:Display: Building textures: T_Door_N (BC5)
+[2015.05.19-18.48.42:681][482]LogMaterial: Missing cached shader map for material M_Door, compiling. 
+[2015.05.19-18.52.05:833][605]LogSavePackage: Save=1657.185791ms
+[2015.05.19-18.52.05:833][605]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap_Auto516A335BB401FAD0A0B32A2921941610F.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2015.05.19-18.52.05:839][605]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.760
+[2015.05.19-18.52.05:839][605]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.760
+[2015.05.19-18.52.05:877][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.05.19-18.52.05:909][605]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2015.05.19-18.52.05:909][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.05.19-18.52.06:786][605]LogSavePackage: Save=869.139526ms
+[2015.05.19-18.52.06:787][605]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonCharacter_Auto52FA33D8942089BBF0E5BFDB85871B98B.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset'
+[2015.05.19-18.52.06:793][605]LogFileHelpers: Auto-saving content packages took 0.953
+[2015.05.19-18.52.12:769][279]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.19-18.52.43:273][775]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.52.43:281][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-18.52.43:310][775]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.52.43:484][775]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.05.19-18.52.43:650][775]LogBlueprint:Warning: [compiler] Warning [3857.29] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 302 ms]
+[2015.05.19-18.52.43:651][775]LogBlueprint:Warning: [compiler] Warning [3857.29] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.05.19-18.52.43:651][775]LogBlueprint:Warning: [compiler] Warning [3857.29] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.05.19-18.52.43:658][775]LogBlueprint:Warning: [compiler] Warning [3857.30] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 3 Warning(s) [in 7 ms]
+[2015.05.19-18.52.43:668][775]LogBlueprint:Warning: [compiler] Warning [3857.31] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 4 Warning(s) [in 9 ms]
+[2015.05.19-18.52.43:668][775]LogBlueprint:Warning: [compiler] Warning [3857.31] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.05.19-18.52.43:670][775]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.52.43:730][775]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.52.43:788][775]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.52.43:856][775]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.52.43:947][775]LogPlayLevel: PIE:  Blueprint regeneration took 674 ms (5 blueprints)
+[2015.05.19-18.52.49:409][775]BlueprintLog: Info Blueprint FirstPersonCharacter failed to compile
+[2015.05.19-18.53.06:249][664]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.53.06:285][664]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.53.06:538][664]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.53.06:595][664]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.53.06:654][664]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.53.06:722][664]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.53.06:812][664]LogPlayLevel: PIE:  Blueprint regeneration took 563 ms (5 blueprints)
+[2015.05.19-18.53.06:812][664]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:53:06 AM)
+[2015.05.19-18.53.06:835][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021704s)
+[2015.05.19-18.53.06:835][664]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2015.05.19-18.53.06:835][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022528s)
+[2015.05.19-18.53.06:879][664]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.53.06:881][664]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.53.06:888][664]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.19-14.53.06
+[2015.05.19-18.53.06:889][664]LogWorld: Bringing up level for play took: 0.007379
+[2015.05.19-18.53.06:901][664]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.253
+[2015.05.19-18.53.07:096][664]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:147][665]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:183][666]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:206][667]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:220][668]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:235][669]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:251][670]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:280][671]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:295][672]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:312][673]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:326][674]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:336][675]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:345][676]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:355][677]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:366][678]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:377][679]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:388][680]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:397][681]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.07:407][682]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.21:641][102]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018965E63E0
+[2015.05.19-18.53.51:027][393]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.53.51:063][393]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.53.51:343][393]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.53.51:399][393]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.53.51:459][393]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.53.51:527][393]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.53.51:619][393]LogPlayLevel: PIE:  Blueprint regeneration took 592 ms (5 blueprints)
+[2015.05.19-18.53.51:619][393]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:53:51 AM)
+[2015.05.19-18.53.51:642][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021529s)
+[2015.05.19-18.53.51:643][393]LogPlayLevel: PIE: World Init took: (0.001302s)
+[2015.05.19-18.53.51:644][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023055s)
+[2015.05.19-18.53.51:692][393]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.53.51:694][393]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.53.51:701][393]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.19-14.53.51
+[2015.05.19-18.53.51:702][393]LogWorld: Bringing up level for play took: 0.007024
+[2015.05.19-18.53.51:714][393]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.56
+[2015.05.19-18.53.51:906][393]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.51:960][394]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.51:992][395]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:003][396]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:012][397]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:022][398]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:032][399]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:047][400]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:071][401]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:085][402]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:101][403]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:114][404]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:123][405]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:133][406]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:143][407]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:153][408]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:163][409]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:174][410]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.52:184][411]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.53.56:781][860]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018AC7BF560
+[2015.05.19-18.57.56:146][643]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.57.56:186][643]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.57.56:450][643]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.57.56:509][643]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.57.56:569][643]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.57.56:639][643]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.57.56:728][643]LogPlayLevel: PIE:  Blueprint regeneration took 581 ms (5 blueprints)
+[2015.05.19-18.57.56:729][643]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:57:56 AM)
+[2015.05.19-18.57.56:751][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022077s)
+[2015.05.19-18.57.56:752][643]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2015.05.19-18.57.56:752][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023308s)
+[2015.05.19-18.57.56:798][643]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.57.56:800][643]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.57.56:808][643]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-14.57.56
+[2015.05.19-18.57.56:808][643]LogWorld: Bringing up level for play took: 0.007398
+[2015.05.19-18.57.56:820][643]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.666
+[2015.05.19-18.57.57:011][643]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:063][644]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:092][645]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:111][646]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:136][647]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:164][648]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:191][649]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:212][650]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:254][651]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:274][652]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:292][653]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:306][654]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:322][655]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:338][656]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:355][657]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:373][658]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:389][659]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:404][660]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.57.57:421][661]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.03:599][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000189C34EDE0
+[2015.05.19-18.58.15:281][698]LogTexture:Display: Building textures: T_ground_Moss_D (AutoDXT)
+[2015.05.19-18.58.19:228][698]LogTexture:Display: Building textures: T_Ground_Moss_N (BC5)
+[2015.05.19-18.58.19:744][698]LogMaterial: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2015.05.19-18.58.23:741][881]LogTexture:Display: Building textures: T_CobbleStone_Smooth_D (AutoDXT)
+[2015.05.19-18.58.28:396][881]LogTexture:Display: Building textures: T_CobbleStone_Smooth_M (AutoDXT)
+[2015.05.19-18.58.32:077][881]LogTexture:Display: Building textures: T_CobbleStone_Smooth_N (BC5)
+[2015.05.19-18.58.32:794][881]LogTexture:Display: Building textures: T_Rock_Smooth_Granite_D (AutoDXT)
+[2015.05.19-18.58.36:727][881]LogTexture:Display: Building textures: T_Gradinet_01 (AutoDXT)
+[2015.05.19-18.58.36:733][881]LogMaterial: Missing cached shader map for material M_CobbleStone_Smooth, compiling. 
+[2015.05.19-18.58.36:784][881]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-18.58.36:851][881]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-18.58.37:230][881]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-18.58.37:328][881]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-18.58.37:406][881]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-18.58.37:513][881]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-18.58.37:650][881]LogPlayLevel: PIE:  Blueprint regeneration took 865 ms (5 blueprints)
+[2015.05.19-18.58.37:651][881]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 10:58:37 AM)
+[2015.05.19-18.58.37:673][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022360s)
+[2015.05.19-18.58.37:674][881]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2015.05.19-18.58.37:674][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023322s)
+[2015.05.19-18.58.37:717][881]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-18.58.37:719][881]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-18.58.37:728][881]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-14.58.37
+[2015.05.19-18.58.37:730][881]LogWorld: Bringing up level for play took: 0.009884
+[2015.05.19-18.58.37:752][881]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.597
+[2015.05.19-18.58.38:053][881]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:133][882]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:156][883]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:172][884]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:188][885]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:203][886]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:219][887]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:239][888]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:253][889]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:268][890]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:287][891]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:304][892]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:320][893]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:335][894]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:352][895]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:372][896]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:386][897]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:401][898]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.38:426][899]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-18.58.54:123][824]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A3391440
+[2015.05.19-19.00.41:549][258]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.00.41:587][258]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.00.41:846][258]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.00.41:907][258]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.00.41:966][258]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.00.42:033][258]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.00.42:127][258]LogPlayLevel: PIE:  Blueprint regeneration took 577 ms (5 blueprints)
+[2015.05.19-19.00.42:127][258]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:00:42 AM)
+[2015.05.19-19.00.42:147][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019534s)
+[2015.05.19-19.00.42:149][258]LogPlayLevel: PIE: World Init took: (0.001163s)
+[2015.05.19-19.00.42:149][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020907s)
+[2015.05.19-19.00.42:192][258]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.00.42:194][258]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.00.42:201][258]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.00.42
+[2015.05.19-19.00.42:202][258]LogWorld: Bringing up level for play took: 0.007360
+[2015.05.19-19.00.42:214][258]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.06
+[2015.05.19-19.00.42:405][258]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:455][259]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:485][260]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:504][261]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:535][262]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:552][263]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:570][264]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:585][265]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:612][266]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:630][267]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:646][268]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:662][269]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:674][270]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:691][271]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:709][272]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:726][273]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:742][274]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:758][275]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.42:776][276]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.00.48:127][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018E306BEC0
+[2015.05.19-19.01.44:996][980]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.01.45:033][980]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.01.45:294][980]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.01.45:351][980]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.01.45:410][980]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.01.45:481][980]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.01.45:575][980]LogPlayLevel: PIE:  Blueprint regeneration took 579 ms (5 blueprints)
+[2015.05.19-19.01.45:575][980]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:01:45 AM)
+[2015.05.19-19.01.45:594][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018932s)
+[2015.05.19-19.01.45:595][980]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2015.05.19-19.01.45:596][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020300s)
+[2015.05.19-19.01.45:643][980]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.01.45:645][980]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.01.45:652][980]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.01.45
+[2015.05.19-19.01.45:653][980]LogWorld: Bringing up level for play took: 0.007485
+[2015.05.19-19.01.45:666][980]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.512
+[2015.05.19-19.01.45:859][980]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.45:918][981]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.45:944][982]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.45:965][983]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.45:987][984]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:008][985]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:026][986]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:042][987]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:059][988]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:075][989]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:088][990]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:105][991]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:122][992]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:139][993]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:154][994]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:171][995]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:188][996]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:205][997]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.01.46:222][998]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.02.30:040][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018B76B37E0
+[2015.05.19-19.03.51:570][352]LogSavePackage: Save=1663.771729ms
+[2015.05.19-19.03.51:570][352]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap_Auto6DE1D64D54FFA4912688CB3898210ABF6.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap'
+[2015.05.19-19.03.51:576][352]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.808
+[2015.05.19-19.03.51:576][352]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.808
+[2015.05.19-19.03.51:609][352]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.05.19-19.03.51:647][352]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2015.05.19-19.03.51:647][352]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.05.19-19.03.52:579][352]LogSavePackage: Save=910.459778ms
+[2015.05.19-19.03.52:580][352]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonCharacter_Auto633E42B92477096FA0A6C6DB5B67089FA.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset'
+[2015.05.19-19.03.52:589][352]LogFileHelpers: Auto-saving content packages took 1.013
+[2015.05.19-19.13.43:991][632]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.19-19.13.44:238][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-19.13.44:282][632]BlueprintEditorCompileResults: Info [5117.92] Compile of FirstPersonCharacter successful! [in 291 ms]
+[2015.05.19-19.13.51:863][ 64]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.13.51:866][ 64]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.13.51:921][ 64]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.13.51:979][ 64]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.13.52:044][ 64]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.13.52:144][ 64]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.13.52:427][ 64]LogPlayLevel: PIE:  Blueprint regeneration took 564 ms (5 blueprints)
+[2015.05.19-19.13.52:427][ 64]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:13:52 AM)
+[2015.05.19-19.13.52:451][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022860s)
+[2015.05.19-19.13.52:452][ 64]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2015.05.19-19.13.52:452][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024474s)
+[2015.05.19-19.13.52:501][ 64]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.13.52:503][ 64]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.13.52:510][ 64]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.13.52
+[2015.05.19-19.13.52:511][ 64]LogWorld: Bringing up level for play took: 0.007227
+[2015.05.19-19.13.52:523][ 64]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.369
+[2015.05.19-19.13.57:111][302]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018AC4CF560
+[2015.05.19-19.13.58:088][358]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.13.58:091][358]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.13.58:146][358]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.13.58:202][358]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.13.58:269][358]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.13.58:367][358]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.13.58:653][358]LogPlayLevel: PIE:  Blueprint regeneration took 565 ms (5 blueprints)
+[2015.05.19-19.13.58:654][358]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:13:58 AM)
+[2015.05.19-19.13.58:675][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021192s)
+[2015.05.19-19.13.58:676][358]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2015.05.19-19.13.58:677][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022491s)
+[2015.05.19-19.13.58:727][358]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.13.58:732][358]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.13.58:750][358]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.13.58
+[2015.05.19-19.13.58:753][358]LogWorld: Bringing up level for play took: 0.020189
+[2015.05.19-19.13.58:785][358]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.632
+[2015.05.19-19.14.13:996][251]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move!
+[2015.05.19-19.14.25:386][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018B77B1EE0
+[2015.05.19-19.14.36:939][481]LogSavePackage: Save=1648.187378ms
+[2015.05.19-19.14.36:939][481]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap_Auto7CF5A0D0C458515DAEC8240BA9B3ACBEE.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto7.umap'
+[2015.05.19-19.14.36:947][481]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.757
+[2015.05.19-19.14.36:947][481]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.757
+[2015.05.19-19.14.36:981][481]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.05.19-19.14.37:028][481]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2015.05.19-19.14.37:028][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.05.19-19.14.37:916][481]LogSavePackage: Save=878.003174ms
+[2015.05.19-19.14.37:917][481]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonCharacter_Auto7E8B650D343302CC94DD178B6D8756F71.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto7.uasset'
+[2015.05.19-19.14.37:932][481]LogFileHelpers: Auto-saving content packages took 0.985
+[2015.05.19-19.14.49:303][162]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.14.49:306][162]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.14.49:363][162]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.14.49:420][162]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.14.49:486][162]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.14.49:574][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-19.14.49:584][162]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.14.49:865][162]LogPlayLevel: PIE:  Blueprint regeneration took 562 ms (5 blueprints)
+[2015.05.19-19.14.49:865][162]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:14:49 AM)
+[2015.05.19-19.14.49:886][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020717s)
+[2015.05.19-19.14.49:888][162]LogPlayLevel: PIE: World Init took: (0.001324s)
+[2015.05.19-19.14.49:888][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022247s)
+[2015.05.19-19.14.49:937][162]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.14.49:939][162]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.14.49:946][162]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.14.49
+[2015.05.19-19.14.49:947][162]LogWorld: Bringing up level for play took: 0.007294
+[2015.05.19-19.14.49:960][162]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.806
+[2015.05.19-19.14.55:923][485]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018965E59E0
+[2015.05.19-19.15.13:905][563]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.15.13:908][563]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.15.13:967][563]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.15.14:023][563]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.15.14:090][563]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.15.14:188][563]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.15.14:469][563]LogPlayLevel: PIE:  Blueprint regeneration took 564 ms (5 blueprints)
+[2015.05.19-19.15.14:470][563]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:15:14 AM)
+[2015.05.19-19.15.14:491][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020652s)
+[2015.05.19-19.15.14:491][563]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2015.05.19-19.15.14:492][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021602s)
+[2015.05.19-19.15.14:543][563]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.15.14:545][563]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.15.14:553][563]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.15.14
+[2015.05.19-19.15.14:553][563]LogWorld: Bringing up level for play took: 0.007380
+[2015.05.19-19.15.14:565][563]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.411
+[2015.05.19-19.16.00:802][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000189E2DB880
+[2015.05.19-19.17.17:472][864]LogEditorTransaction: Undo Create Pin Link
+[2015.05.19-19.21.28:841][748]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.21.28:880][748]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.21.29:144][748]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.21.29:201][748]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.21.29:260][748]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.21.29:328][748]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.21.29:421][748]LogPlayLevel: PIE:  Blueprint regeneration took 580 ms (5 blueprints)
+[2015.05.19-19.21.29:422][748]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:21:29 AM)
+[2015.05.19-19.21.29:444][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022035s)
+[2015.05.19-19.21.29:446][748]LogPlayLevel: PIE: World Init took: (0.001425s)
+[2015.05.19-19.21.29:446][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023670s)
+[2015.05.19-19.21.29:493][748]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.21.29:495][748]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.21.29:502][748]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.21.29
+[2015.05.19-19.21.29:503][748]LogWorld: Bringing up level for play took: 0.007549
+[2015.05.19-19.21.29:516][748]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.362
+[2015.05.19-19.21.29:705][748]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:760][749]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:785][750]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:807][751]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:827][752]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:845][753]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:867][754]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:888][755]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:910][756]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:930][757]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:947][758]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:967][759]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:980][760]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.29:996][761]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.30:013][762]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.30:029][763]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.30:046][764]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.30:063][765]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.30:079][766]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.21.42:905][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000189C1F1BC0
+[2015.05.19-19.22.01:365][622]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.22.01:402][622]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.22.01:662][622]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.22.01:717][622]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.22.01:777][622]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.22.01:845][622]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.22.01:935][622]LogPlayLevel: PIE:  Blueprint regeneration took 568 ms (5 blueprints)
+[2015.05.19-19.22.01:935][622]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:22:01 AM)
+[2015.05.19-19.22.01:957][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022045s)
+[2015.05.19-19.22.01:958][622]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2015.05.19-19.22.01:959][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023146s)
+[2015.05.19-19.22.02:005][622]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.22.02:007][622]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.22.02:014][622]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.22.02
+[2015.05.19-19.22.02:015][622]LogWorld: Bringing up level for play took: 0.007275
+[2015.05.19-19.22.02:041][622]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.887
+[2015.05.19-19.22.02:234][622]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:305][623]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:346][624]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:362][625]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:378][626]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:394][627]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:413][628]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:429][629]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:448][630]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:462][631]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:480][632]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:495][633]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:510][634]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:527][635]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:543][636]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:560][637]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:578][638]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:594][639]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.02:611][640]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.09:338][ 27]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001891F300E0
+[2015.05.19-19.22.16:051][408]LogMaterial: Missing cached shader map for material M_ColorGrid_LowSpec, compiling. 
+[2015.05.19-19.22.17:275][478]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.22.17:328][478]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.22.17:661][478]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.22.17:738][478]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.22.17:807][478]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.22.17:878][478]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.22.17:970][478]LogPlayLevel: PIE:  Blueprint regeneration took 694 ms (5 blueprints)
+[2015.05.19-19.22.17:970][478]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:22:17 AM)
+[2015.05.19-19.22.17:993][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022245s)
+[2015.05.19-19.22.17:995][478]LogPlayLevel: PIE: World Init took: (0.002075s)
+[2015.05.19-19.22.17:995][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024538s)
+[2015.05.19-19.22.18:040][478]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.22.18:042][478]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.22.18:049][478]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.22.18
+[2015.05.19-19.22.18:050][478]LogWorld: Bringing up level for play took: 0.007366
+[2015.05.19-19.22.18:064][478]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.91
+[2015.05.19-19.22.18:262][478]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:339][479]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:361][480]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:375][481]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:391][482]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:408][483]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:427][484]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:448][485]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:468][486]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:488][487]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:504][488]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:519][489]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:536][490]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:552][491]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:569][492]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:585][493]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:602][494]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:618][495]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.18:636][496]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.24:289][818]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A4229800
+[2015.05.19-19.22.32:064][268]LogTexture:Display: Building textures: T_Ground_Gravel_D (AutoDXT)
+[2015.05.19-19.22.36:036][268]LogTexture:Display: Building textures: T_Ground_Gravel_N (BC5)
+[2015.05.19-19.22.36:542][268]LogMaterial: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2015.05.19-19.22.36:590][268]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.22.36:645][268]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.22.36:988][268]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.22.37:068][268]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.22.37:154][268]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.22.37:259][268]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.22.37:401][268]LogPlayLevel: PIE:  Blueprint regeneration took 811 ms (5 blueprints)
+[2015.05.19-19.22.37:402][268]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:22:37 AM)
+[2015.05.19-19.22.37:422][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019655s)
+[2015.05.19-19.22.37:423][268]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2015.05.19-19.22.37:423][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020769s)
+[2015.05.19-19.22.37:464][268]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.22.37:466][268]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.22.37:475][268]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.22.37
+[2015.05.19-19.22.37:476][268]LogWorld: Bringing up level for play took: 0.009469
+[2015.05.19-19.22.37:502][268]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.348
+[2015.05.19-19.22.37:810][268]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.37:912][269]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.37:989][270]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:033][271]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:077][272]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:104][273]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:127][274]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:143][275]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:159][276]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:175][277]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:195][278]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:210][279]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:227][280]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:244][281]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:260][282]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:276][283]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:293][284]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:311][285]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:328][286]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:341][287]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:360][288]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:376][289]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:391][290]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:411][291]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:428][292]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:446][293]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:460][294]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:477][295]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:491][296]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:508][297]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:527][298]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:545][299]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:561][300]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:577][301]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:597][302]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:615][303]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:636][304]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:656][305]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:676][306]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:693][307]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:715][308]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:740][309]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:767][310]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:787][311]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:810][312]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:831][313]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:851][314]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:869][315]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:888][316]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:906][317]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.38:923][318]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.40:031][358]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018AD4AA0C0
+[2015.05.19-19.22.40:742][399]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.22.40:796][399]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.22.41:154][399]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.22.41:218][399]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.22.41:293][399]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.22.41:380][399]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.22.41:493][399]LogPlayLevel: PIE:  Blueprint regeneration took 751 ms (5 blueprints)
+[2015.05.19-19.22.41:493][399]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:22:41 AM)
+[2015.05.19-19.22.41:513][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019659s)
+[2015.05.19-19.22.41:514][399]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2015.05.19-19.22.41:514][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020698s)
+[2015.05.19-19.22.41:567][399]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.22.41:569][399]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.22.41:577][399]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.22.41
+[2015.05.19-19.22.41:578][399]LogWorld: Bringing up level for play took: 0.009069
+[2015.05.19-19.22.41:595][399]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.441
+[2015.05.19-19.22.41:828][399]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.41:887][400]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.41:927][401]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.41:942][402]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.41:959][403]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.41:988][404]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:015][405]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:030][406]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:050][407]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:070][408]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:087][409]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:102][410]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:119][411]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:136][412]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:152][413]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:168][414]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:185][415]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:206][416]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.42:224][417]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.22.59:833][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A53702C0
+[2015.05.19-19.23.58:352][947]LogEditorTransaction: Undo Move Node
+[2015.05.19-19.24.22:321][305]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-19.24.22:358][305]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-19.24.22:615][305]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-19.24.22:676][305]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-19.24.22:736][305]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-19.24.22:811][305]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-19.24.22:908][305]LogPlayLevel: PIE:  Blueprint regeneration took 587 ms (5 blueprints)
+[2015.05.19-19.24.22:909][305]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 11:24:22 AM)
+[2015.05.19-19.24.22:931][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021854s)
+[2015.05.19-19.24.22:932][305]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2015.05.19-19.24.22:932][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022892s)
+[2015.05.19-19.24.22:981][305]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-19.24.22:984][305]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-19.24.22:991][305]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.19-15.24.22
+[2015.05.19-19.24.22:991][305]LogWorld: Bringing up level for play took: 0.007304
+[2015.05.19-19.24.23:003][305]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.151
+[2015.05.19-19.24.23:190][305]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:259][306]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:293][307]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:308][308]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:324][309]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:351][310]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:372][311]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:387][312]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:403][313]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:417][314]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:433][315]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:449][316]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:467][317]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:484][318]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:501][319]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:517][320]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:534][321]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:550][322]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.23:567][323]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create WidgetHUD_C Widget' to 'Set WidgetHUDVariable'.
+[2015.05.19-19.24.27:720][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A820C2C0
+[2015.05.19-19.26.27:031][584]LogSavePackage: Save=1651.596191ms
+[2015.05.19-19.26.27:031][584]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap_Auto837EF173B4B55EF7C70278695901CE8CF.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto8.umap'
+[2015.05.19-19.26.27:038][584]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.764
+[2015.05.19-19.26.27:038][584]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.764
+[2015.05.19-19.26.27:071][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.05.19-19.26.27:124][584]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2015.05.19-19.26.27:124][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.05.19-19.26.28:025][584]LogSavePackage: Save=888.180237ms
+[2015.05.19-19.26.28:026][584]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonCharacter_Auto86F09E6D44DBBB00FEA004CAE730FC9D3.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto8.uasset'
+[2015.05.19-19.26.28:033][584]LogFileHelpers: Auto-saving content packages took 0.995
+[2015.05.19-19.26.30:364][717]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-19.29.58:348][ 52]LogEditorViewport: Clicking on Actor (LMB): AmmoBox_C (AmmoBox2)
+[2015.05.19-19.30.26:142][697]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.05.19-19.30.27:118][734]LogEditorViewport: Clicking on Actor (LMB): AmmoBox_C (AmmoBox2)
+[2015.05.19-19.30.28:028][788]Cmd: DELETE
+[2015.05.19-19.30.28:028][788]Cmd: ACTOR DELETE
+[2015.05.19-19.30.28:463][788]LogEditorActor: Deleted Actor: AmmoBox_C
+[2015.05.19-19.30.28:464][788]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.05.19-19.30.28:465][788]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.19-19.30.28:517][788]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2015.05.19-19.30.49:082][ 17]Cmd: DELETE
+[2015.05.19-19.30.49:082][ 17]Cmd: ACTOR DELETE
+[2015.05.19-19.30.49:082][ 17]LogEditorActor: Deleted Actor: AmmoBox_C
+[2015.05.19-19.30.49:083][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.19-19.30.49:083][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-19.30.49:104][ 17]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2015.05.19-19.34.25:134][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.19-19.34.25:134][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-19.34.27:311][895]LogSavePackage: Save=1665.095337ms
+[2015.05.19-19.34.27:311][895]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMapB6B8E71A4C42BE5D3F0E33961D29C370.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.05.19-19.34.27:349][895]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.836
+[2015.05.19-19.34.28:052][895]LogSavePackage: Save=678.534607ms
+[2015.05.19-19.34.28:052][895]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonCharacter8632BB84468F7EF987FA96B0CB3F0B92.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.05.19-19.35.28:965][220]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0067 seconds. Added 15 classes and 2 folders.
+[2015.05.19-19.35.28:997][220]LogInit: Transaction tracking system initialized
+[2015.05.19-19.35.28:998][220]EditorErrors: New page: Matinee Initialization
+[2015.05.19-19.38.30:059][479]LogEditorViewport: Clicking on Actor (LMB): HealthPack_Blueprint_C (HealthPack_Blueprint)
+[2015.05.19-19.38.53:520][244]LogEditorViewport: Clicking on Actor (LMB): HealthPack_Blueprint_C (HealthPack_Blueprint)
+[2015.05.19-19.44.08:368][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube08)
+[2015.05.19-20.03.45:875][649]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Maps'
+[2015.05.19-20.03.56:313][845]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-20.03.56:313][845]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.19-20.04.12:540][  6]LogExit: Transaction tracking system shut down
+[2015.05.19-20.04.14:225][  6]LogSavePackage: Save=1664.422852ms
+[2015.05.19-20.04.14:225][  6]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap6FA3164D4E23DD27FF5610A849F6E2A8.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.05.19-20.04.14:248][  6]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.823
+[2015.05.19-20.05.25:583][510]LogInit: Transaction tracking system initialized
+[2015.05.19-20.05.25:583][510]LogMatinee:Warning: GROUP ADD: New group found for (InterpGroupDirector_0).
+[2015.05.19-20.05.25:583][510]EditorErrors: New page: Matinee Initialization
+[2015.05.19-20.05.30:812][ 80]LogExit: Transaction tracking system shut down
+[2015.05.19-20.05.36:347][ 80]LogSavePackage: Save=1699.203979ms
+[2015.05.19-20.05.36:347][ 80]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap1590D6F8426CBFF7B1CED7BAC426A7D9.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.05.19-20.05.36:370][ 80]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.841
+[2015.05.19-20.05.36:374][ 80]Cmd: MAP LOAD FILE="C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.19-20.05.36:374][ 80]LightingResults: New page: Lighting Build
+[2015.05.19-20.05.36:402][ 80]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2015.05.19-20.05.36:404][ 80]MapCheck: New page: Map Check
+[2015.05.19-20.05.36:404][ 80]LightingResults: New page: Lighting Build
+[2015.05.19-20.05.36:420][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018D91F5760
+[2015.05.19-20.05.36:686][ 80]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.19-20.05.37:438][ 80]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-20.05.37:459][ 80]Cmd: MAP CHECKDEP
+[2015.05.19-20.05.37:459][ 80]MapCheck: New page: FirstPersonExampleMap - May 19, 2015, 12:05:37 PM
+[2015.05.19-20.05.37:551][ 80]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.903ms to complete.
+[2015.05.19-20.05.37:551][ 80]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.180
+[2015.05.19-20.05.57:038][396]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
+[2015.05.19-20.06.00:394][796]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.19-20.07.09:246][885]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.05.19-20.07.09:752][942]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2015.05.19-20.08.35:793][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-20.08.35:793][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.19-20.08.35:830][151]LogEditorActor: Deleted 0 Actors (4.031 secs)
+[2015.05.19-20.09.24:363][732]LogInit: Transaction tracking system initialized
+[2015.05.19-20.09.24:364][732]EditorErrors: New page: Matinee Initialization
+[2015.05.19-20.13.41:254][126]LogExit: Transaction tracking system shut down
+[2015.05.19-20.13.43:122][126]LogSavePackage: Save=1675.966675ms
+[2015.05.19-20.13.43:122][126]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap143A34C3459646004A9525BFA1C6FA78.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.05.19-20.13.43:154][126]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.841
+[2015.05.19-20.14.13:931][758]LogInit: Transaction tracking system initialized
+[2015.05.19-20.14.13:932][758]EditorErrors: New page: Matinee Initialization
+[2015.05.19-20.14.48:104][371]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-20.14.48:167][371]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.19-20.14.48:425][371]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.05.19-20.14.48:471][371]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.05.19-20.14.48:526][371]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.05.19-20.14.48:581][371]LogPlayLevel: [PIE] Compiling FirstPersonHUD before PIE...
+[2015.05.19-20.14.48:646][371]LogPlayLevel: [PIE] Compiling WidgetHUD before PIE...
+[2015.05.19-20.14.48:725][371]LogExit: Transaction tracking system shut down
+[2015.05.19-20.14.48:732][371]LogPlayLevel: PIE:  Blueprint regeneration took 628 ms (6 blueprints)
+[2015.05.19-20.14.48:732][371]PIE: New page: PIE session: FirstPersonExampleMap (May 19, 2015, 12:14:48 PM)
+[2015.05.19-20.14.48:761][371]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.05.19-20.14.48:761][371]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.05.19-20.14.48:763][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030190s)
+[2015.05.19-20.14.48:764][371]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2015.05.19-20.14.48:764][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031171s)
+[2015.05.19-20.14.48:810][371]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.19-20.14.48:812][371]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.19-20.14.48:824][371]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.19-16.14.48
+[2015.05.19-20.14.48:825][371]LogWorld: Bringing up level for play took: 0.012566
+[2015.05.19-20.14.48:830][371]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 3.676
+[2015.05.19-20.14.56:441][265]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-20.14.56:488][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000189710E0C0
+[2015.05.19-20.15.29:304][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.19-20.15.29:304][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.19-20.15.31:178][104]LogSavePackage: Save=1679.891113ms
+[2015.05.19-20.15.31:178][104]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap475D644B4CD460C51D99F79817714A0F.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.05.19-20.15.31:201][104]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.820
+[2015.05.19-20.15.35:805][541]Cmd: QUIT_EDITOR
+[2015.05.19-20.15.36:016][541]LogExit: Preparing to exit.
+[2015.05.19-20.15.37:165][541]LogExit: Editor shut down
+[2015.05.19-20.15.37:166][541]LogExit: Transaction tracking system shut down
+[2015.05.19-20.15.37:170][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001891988C20
+[2015.05.19-20.15.37:171][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001891AADDA0
+[2015.05.19-20.15.37:171][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018EC92AC00
+[2015.05.19-20.15.37:171][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001892454400
+[2015.05.19-20.15.37:172][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A3392160
+[2015.05.19-20.15.37:172][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018AC7BFCE0
+[2015.05.19-20.15.37:172][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018D2059C60
+[2015.05.19-20.15.37:172][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A5F56160
+[2015.05.19-20.15.37:172][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A1BD2A20
+[2015.05.19-20.15.37:301][541]LogExit: Object subsystem successfully closed.
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module DistCurveEditor (179)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module Matinee (178)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.19-20.15.37:345][541]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.19-20.15.37:460][541]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.19-20.15.37:461][541]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.19-20.15.37:525][541]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.19-20.15.37:525][541]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.19-20.15.37:526][541]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.19-20.15.37:528][541]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.19-20.15.37:528][541]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.19-20.15.37:528][541]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.19-20.15.37:528][541]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.19-20.15.37:528][541]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.19-20.15.37:529][541]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.19-20.15.37:630][541]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.19-20.15.37:630][541]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.19-20.15.37:630][541]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.19-20.15.37:630][541]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.19-20.15.37:630][541]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.19-20.15.37:630][541]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.19-20.15.37:630][541]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.19-20.15.37:631][541]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.19-20.15.37:631][541]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.19-20.15.37:631][541]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.19-20.15.37:631][541]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.19-20.15.37:631][541]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.19-20.15.37:631][541]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.19-20.15.37:633][541]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.19-20.15.37:634][541]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.19-20.15.37:634][541]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.19-20.15.37:634][541]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.19-20.15.37:634][541]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.19-20.15.37:634][541]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.19-20.15.37:634][541]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.19-20.15.37:634][541]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.19-20.15.37:634][541]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.19-20.15.37:634][541]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.19-20.15.37:634][541]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.19-20.15.37:636][541]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.19-20.15.37:636][541]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.19-20.15.37:636][541]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.19-20.15.37:737][541]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.19-20.15.37:737][541]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.19-20.15.37:745][541]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.19-20.15.37:745][541]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.19-20.15.37:745][541]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.19-20.15.37:746][541]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.19-20.15.37:753][541]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.19-20.15.37:753][541]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.19-20.15.37:753][541]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.19-20.15.37:753][541]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.19-20.15.37:753][541]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.19-20.15.37:753][541]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.19-20.15.37:753][541]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.19-20.15.37:753][541]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.19-20.15.37:753][541]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.19-20.15.37:753][541]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.19-20.15.37:849][541]LogDerivedDataCache: Shutdown
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.19-20.15.37:849][541]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.19-20.15.37:850][541]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.19-20.15.37:865][541]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.19-20.15.37:865][541]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.19-20.15.37:865][541]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.19-20.15.37:865][541]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.19-20.15.37:865][541]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.19-20.15.37:865][541]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.19-20.15.37:865][541]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.19-20.15.37:865][541]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.19-20.15.37:865][541]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.19-20.15.37:866][541]LogExit: Exiting.
+[2015.05.19-20.15.37:896][541]Log file closed, 05/19/15 16:15:37
