@@ -1,0 +1,1213 @@
+﻿Log file open, 06/02/15 09:34:57
+LogInit:Display: Running engine for game: Shooter
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: D:/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.02-13.34.57:451][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.06.02-13.34.57:517][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.02-13.34.57:527][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.02-13.34.57:535][  0]LogInit: Object subsystem initialized
+[2015.06.02-13.34.57:537][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.02-13.34.57:537][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.02-13.34.57:537][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.02-13.34.57:537][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.02-13.34.57:537][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.02-13.34.57:537][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.02-13.34.57:537][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.02-13.34.57:537][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.02-13.34.57:542][  0]LogInit: Computer: MSI-GUILLAUME
+[2015.06.02-13.34.57:542][  0]LogInit: User: guillaume
+[2015.06.02-13.34.57:542][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.02-13.34.57:542][  0]LogInit: High frequency timer resolution =2.435773 MHz
+[2015.06.02-13.34.57:542][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2015.06.02-13.34.57:543][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.02-13.34.57:543][  0]LogMemory: Process Physical Memory: 46.98 MB used, 46.98 MB peak
+[2015.06.02-13.34.57:543][  0]LogMemory: Process Virtual Memory: 29.43 MB used, 29.43 MB peak
+[2015.06.02-13.34.57:543][  0]LogMemory: Physical Memory: 3352.04 MB used, 16336.83 MB total
+[2015.06.02-13.34.57:543][  0]LogMemory: Virtual Memory: 302.74 MB used, 134217728.00 MB total
+[2015.06.02-13.34.57:569][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M    (Feature Level 11_0)
+[2015.06.02-13.34.57:569][  0]LogD3D11RHI: Adapter has 5980MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 1 output[s]
+[2015.06.02-13.34.57:570][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.02-13.34.57:570][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.06.02-13.34.57:570][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.02-13.34.57:574][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.02-13.34.57:587][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.02-13.34.57:651][  0]LogTextLocalizationManager: The requested culture ('fr_CA') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.06.02-13.34.57:759][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.02-13.34.57:759][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.02-13.34.57:849][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.02-13.34.59:907][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.02-13.35.00:352][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.02-13.35.00:398][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.02-13.35.00:436][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/guillaume/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.02-13.35.00:436][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/guillaume/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.02-13.35.00:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/guillaume/Documents/Unreal Projects/Shooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.02-13.35.00:436][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.02-13.35.00:535][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.02-13.35.00:547][  0]LogDerivedDataCache: Using Local data cache path C:/Users/guillaume/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.02-13.35.00:786][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.02-13.35.00:786][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.02-13.35.01:164][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.02-13.35.01:231][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.02-13.35.01:896][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.02-13.35.02:092][  0]SourceControl: Info Source control is disabled
+[2015.06.02-13.35.02:093][  0]SourceControl: Info Source control is disabled
+[2015.06.02-13.35.02:093][  0]SourceControl: Info Source control is disabled
+[2015.06.02-13.35.02:099][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.02-13.35.02:135][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.1
+'
+[2015.06.02-13.35.02:265][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.02-13.35.02:265][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.02-13.35.02:333][  0]LogEngine: Initializing Engine...
+[2015.06.02-13.35.05:497][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.02-13.35.05:521][  0]LogInit: FAudioDevice initialized.
+[2015.06.02-13.35.05:564][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.02-13.35.05:585][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/guillaume/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.02-13.35.05:587][  0]LogInit: Texture streaming: Enabled
+[2015.06.02-13.35.05:678][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.02-13.35.05:678][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.02-13.35.05:678][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.02-13.35.05:678][  0]LogAnalytics: SetUserId e3487cae44029761e470c8b4123de03d|c7a288572b714f9898c556981a74ab33|66f320fe-673b-44ee-aa7f-b0a8f0fff000
+[2015.06.02-13.35.05:679][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.02-13.35.05:698][  0]LogInit: Transaction tracking system initialized
+[2015.06.02-13.35.05:824][  0]BlueprintLog: New page: Editor Load
+[2015.06.02-13.35.05:852][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.06.02-13.35.05:852][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.02-13.35.06:317][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.02-13.35.06:635][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.02-13.35.06:848][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.02-13.35.06:848][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.02-13.35.06:885][  0]LogConsoleResponse:Display: 
+[2015.06.02-13.35.06:983][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.02-13.35.07:082][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.02-13.35.07:121][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.1
+'
+[2015.06.02-13.35.07:122][  0]Cmd: MAP LOAD FILE="C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.02-13.35.07:122][  0]LightingResults: New page: Lighting Build
+[2015.06.02-13.35.07:131][  0]MapCheck: New page: Map Check
+[2015.06.02-13.35.07:131][  0]LightingResults: New page: Lighting Build
+[2015.06.02-13.35.07:137][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000551AF86980
+[2015.06.02-13.35.07:151][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.02-13.35.09:746][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.02-13.35.10:607][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.02-13.35.10:607][  0]Cmd: MAP CHECKDEP
+[2015.06.02-13.35.10:607][  0]MapCheck: New page: FirstPersonExampleMap - Jun 2, 2015, 5:35:10 AM
+[2015.06.02-13.35.10:681][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.039ms to complete.
+[2015.06.02-13.35.10:681][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.559
+[2015.06.02-13.35.10:849][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.06.02-13.35.10:849][  0]LogCollectionManager: Loaded 0 collections in 0.001098 seconds
+[2015.06.02-13.35.10:857][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1696 classes and 261 folders.
+[2015.06.02-13.35.10:880][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2015.06.02-13.35.10:917][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch Guillaume
+Your branch is up-to-date with 'GitHubShooter/Guillaume'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+	modified:   Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+	modified:   Intermediate/CachedAssetRegistry.bin
+	modified:   Saved/AutoScreenshot.png
+	deleted:    Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+	modified:   Saved/Config/Windows/Editor.ini
+	modified:   Saved/Config/Windows/EditorLayout.ini
+	modified:   Saved/Config/Windows/EditorUserSettings.ini
+	deleted:    Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+	modified:   Saved/Logs/Shooter.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Content/FirstPersonBP/Audio/Metal_Gear_Solid_-_Snake_death_scream_sound_effect.uasset
+	Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset
+	Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+	Content/FirstPersonBP/Character/KillerDrone.uasset
+	Content/FirstPersonBP/Character/KillerDrone_PhysicsAsset.uasset
+	Content/FirstPersonBP/Character/KillerDrone_Skeleton.uasset
+	Content/FirstPersonBP/Textures/KillerDrone_UV_.uasset
+	Saved/Backup/BasicAICharacter_2015-06-02-09-29-45.uasset
+	Saved/Backup/BasicAIController_2015-06-02-09-29-45.uasset
+	Saved/Backup/BasicBehaviorTree_2015-06-02-09-29-30.uasset
+	Saved/Backup/FindPlayer_2015-06-02-09-29-45.uasset
+	Saved/Backup/FirstPersonExampleMap_2015-06-02-09-25-29.umap
+	Saved/Logs/Dump1910700336.dmp
+	Saved/Logs/Shooter-backup-2015.06.02-09.15.33.log
+	Saved/Logs/Shooter-backup-2015.06.02-09.26.43.log
+	Saved/Logs/Shooter-backup-2015.06.02-09.31.02.log
+	Saved/Logs/Shooter-backup-2015.06.02-09.34.57.log
+
+'
+[2015.06.02-13.35.10:918][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.06.02-13.35.10:918][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.02-13.35.10:918][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.02-13.35.10:923][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.02-13.35.10:937][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Guillaume
+'
+[2015.06.02-13.35.10:948][  0]LogLoad: Full Startup: 15.14 seconds (BP compile: 1.15 seconds)
+[2015.06.02-13.35.10:976][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints/AI/Kamikaze'
+[2015.06.02-13.35.11:024][  0]SourceControl: Info Guillaume
+[2015.06.02-13.35.11:085][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.06.02-13.35.11:290][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:14).
+[2015.06.02-13.35.11:488][  4]LogAssetRegistry: Asset discovery search completed in 5.6475 seconds
+[2015.06.02-13.35.16:239][554]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset"'
+[2015.06.02-13.35.16:288][560]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+'
+[2015.06.02-13.35.20:365][ 31]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.06.02-13.35.21:377][ 96]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AmmoBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/CheckpointCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/DamageCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookWall.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/Killzone_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/MyShake.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/WidgetHUD.uasset"'
+[2015.06.02-13.35.21:427][ 99]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset
+?? Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.35.27:761][521]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints/AI/Kamikaze'
+[2015.06.02-13.35.28:772][640]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset"'
+[2015.06.02-13.35.28:821][646]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+'
+[2015.06.02-13.35.33:059][150]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.06.02-13.35.34:074][221]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AmmoBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/CheckpointCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/DamageCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookWall.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/Killzone_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/MyShake.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/WidgetHUD.uasset"'
+[2015.06.02-13.35.34:123][224]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset
+?? Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.35.36:513][386]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints/AI/Kamikaze'
+[2015.06.02-13.35.37:522][505]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset"'
+[2015.06.02-13.35.37:572][511]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+'
+[2015.06.02-13.35.40:767][894]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.06.02-13.35.41:791][961]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AmmoBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/CheckpointCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/DamageCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookWall.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/Killzone_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/MyShake.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/WidgetHUD.uasset"'
+[2015.06.02-13.35.41:839][964]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset
+?? Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.35.44:327][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:328][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset.
+[2015.06.02-13.35.44:328][136]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer : Can't find file for asset. /Game/FirstPersonBP/Blueprints/BasicAIController
+[2015.06.02-13.35.44:328][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:328][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset.
+[2015.06.02-13.35.44:331][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:331][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset.
+[2015.06.02-13.35.44:332][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:332][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset.
+[2015.06.02-13.35.44:333][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:333][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:333][136]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/BasicBehaviorTree : Can't find file for asset. /Game/FirstPersonBP/Blueprints/BasicAIController
+[2015.06.02-13.35.44:334][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:334][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:334][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:334][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:334][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:334][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:335][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:335][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:339][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:340][136]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController_C Referenced by K2Node_DynamicCast_457
+[2015.06.02-13.35.44:340][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:340][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:340][136]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController_C Referenced by EdGraphPin_58589
+[2015.06.02-13.35.44:340][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:342][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:342][136]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController_C Referenced by K2Node_VariableGet_1441
+[2015.06.02-13.35.44:342][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:342][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:342][136]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController_C Referenced by EdGraphPin_58604
+[2015.06.02-13.35.44:343][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:344][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:344][136]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController_C Referenced by K2Node_VariableSet_1865
+[2015.06.02-13.35.44:344][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:344][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:344][136]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController_C Referenced by EdGraphPin_58613
+[2015.06.02-13.35.44:345][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:345][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:345][136]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController_C Referenced by K2Node_VariableGet_3033
+[2015.06.02-13.35.44:345][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:345][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.44:346][136]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController_C Referenced by EdGraphPin_58625
+[2015.06.02-13.35.44:346][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:365][136]LogBlueprint:Warning: [FindPlayer] CreatePinForVariable: 'PerceptionRadius' variable not found. Base class was probably changed.
+[2015.06.02-13.35.44:369][136]LogBlueprint:Warning: [FindPlayer] CreatePinForVariable: 'ConeDeVision' variable not found. Base class was probably changed.
+[2015.06.02-13.35.44:369][136]LogBlueprint:Warning: [FindPlayer] CreatePinForVariable: 'ConeDeVision' variable not found. Base class was probably changed.
+[2015.06.02-13.35.44:369][136]LogBlueprint:Warning: [FindPlayer] CreatePinForVariable: 'ConeDeVision' variable not found. Base class was probably changed.
+[2015.06.02-13.35.44:378][136]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "ConeDeVision" in 'FindPlayer'.
+Make sure 'FindPlayer' has been compiled for  Get ConeDeVision 
+[2015.06.02-13.35.44:378][136]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "ConeDeVision" in 'FindPlayer'.
+Make sure 'FindPlayer' has been compiled for  Set ConeDeVision 
+[2015.06.02-13.35.44:378][136]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PerceptionRadius" in 'FindPlayer'.
+Make sure 'FindPlayer' has been compiled for  Get PerceptionRadius 
+[2015.06.02-13.35.44:380][136]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection.
+[2015.06.02-13.35.44:380][136]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection.
+[2015.06.02-13.35.44:380][136]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection.
+[2015.06.02-13.35.44:381][136]LogBlueprint:Error: [compiler] Error The property associated with  Perception Radius  could not be found
+[2015.06.02-13.35.44:381][136]LogBlueprint:Error: [compiler] Error The property associated with  Cone De Vision  could not be found
+[2015.06.02-13.35.44:381][136]LogBlueprint:Error: [compiler] Error The property associated with  Cone De Vision  could not be found
+[2015.06.02-13.35.44:386][136]LogBlueprint:Warning: [compiler] Warning [0048.58] Compile of FindPlayer failed. 6 Fatal Issue(s) 3 Warning(s) [in 15 ms]
+[2015.06.02-13.35.44:386][136]LogBlueprint:Warning: [compiler] Warning [0048.58] Compile of FindPlayer failed. 6 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.06.02-13.35.44:386][136]LogBlueprint:Warning: [compiler] Warning [0048.58] Compile of FindPlayer failed. 6 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.06.02-13.35.44:386][136]LogBlueprint:Warning: [compiler] Warning [0048.58] Compile of FindPlayer failed. 6 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.06.02-13.35.44:386][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.44:387][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:387][136]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/BasicBehaviorTree : Can't find file for asset. /Game/FirstPersonBP/Blueprints/BasicTask
+[2015.06.02-13.35.44:388][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.44:388][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.44:389][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.44:389][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.44:389][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.44:389][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.44:391][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.44:391][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.44:391][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.44:391][136]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/BasicTask.BasicTask_C Referenced by BehaviorTreeGraphNode_Task_10
+[2015.06.02-13.35.44:391][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.44:391][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.44:391][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.44:392][136]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.44:392][136]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/BasicTask.BasicTask_C Referenced by BTComposite_Selector_0
+[2015.06.02-13.35.44:392][136]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.44:398][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.02-13.35.44:398][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.02-13.35.46:225][137]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset"'
+[2015.06.02-13.35.46:275][139]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.35.47:181][200]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints/AI'
+[2015.06.02-13.35.47:618][252]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints/AI/Kamikaze'
+[2015.06.02-13.35.48:624][370]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset"'
+[2015.06.02-13.35.48:683][377]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+'
+[2015.06.02-13.35.50:009][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.50:009][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset.
+[2015.06.02-13.35.50:009][535]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter : Can't find file for asset. /Game/FirstPersonBP/Blueprints/BasicAIController
+[2015.06.02-13.35.50:014][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.50:014][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset.
+[2015.06.02-13.35.50:021][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.50:021][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading NULL.
+[2015.06.02-13.35.50:021][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.50:021][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading NULL.
+[2015.06.02-13.35.50:022][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.50:022][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading NULL.
+[2015.06.02-13.35.50:168][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:168][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.50:168][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:168][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.50:169][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:169][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.50:169][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:169][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.50:175][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:175][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.50:175][535]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree : Can't find file for asset. /Game/FirstPersonBP/Blueprints/BasicTask
+[2015.06.02-13.35.50:175][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FindPlayer'
+[2015.06.02-13.35.50:175][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FindPlayer' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.50:175][535]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FindPlayer
+[2015.06.02-13.35.50:176][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:176][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.50:177][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FindPlayer'
+[2015.06.02-13.35.50:177][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FindPlayer' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.50:177][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:177][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.50:178][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:178][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.50:179][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FindPlayer'
+[2015.06.02-13.35.50:179][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FindPlayer' while loading NULL.
+[2015.06.02-13.35.50:179][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FindPlayer'
+[2015.06.02-13.35.50:179][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FindPlayer' while loading NULL.
+[2015.06.02-13.35.50:180][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:180][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.50:180][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:180][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.50:180][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FindPlayer'
+[2015.06.02-13.35.50:181][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FindPlayer' while loading NULL.
+[2015.06.02-13.35.50:181][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FindPlayer'
+[2015.06.02-13.35.50:181][535]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FindPlayer.FindPlayer_C Referenced by BehaviorTreeGraphNode_Task_11
+[2015.06.02-13.35.50:181][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FindPlayer' while loading NULL.
+[2015.06.02-13.35.50:181][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FindPlayer'
+[2015.06.02-13.35.50:181][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FindPlayer' while loading NULL.
+[2015.06.02-13.35.50:181][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FindPlayer'
+[2015.06.02-13.35.50:181][535]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FindPlayer.FindPlayer_C Referenced by BTComposite_Selector_0
+[2015.06.02-13.35.50:182][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FindPlayer' while loading NULL.
+[2015.06.02-13.35.50:182][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:182][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.50:182][535]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.50:182][535]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading NULL.
+[2015.06.02-13.35.52:361][775]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.06.02-13.35.52:456][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch Guillaume
+Your branch is up-to-date with 'GitHubShooter/Guillaume'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+	new file:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+	modified:   Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+	modified:   Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+	modified:   Intermediate/CachedAssetRegistry.bin
+	modified:   Saved/AutoScreenshot.png
+	deleted:    Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+	modified:   Saved/Config/Windows/Editor.ini
+	modified:   Saved/Config/Windows/EditorLayout.ini
+	modified:   Saved/Config/Windows/EditorUserSettings.ini
+	deleted:    Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+	deleted:    Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+	modified:   Saved/Logs/Shooter.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Content/FirstPersonBP/Audio/Metal_Gear_Solid_-_Snake_death_scream_sound_effect.uasset
+	Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset
+	Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+	Content/FirstPersonBP/Character/KillerDrone.uasset
+	Content/FirstPersonBP/Character/KillerDrone_PhysicsAsset.uasset
+	Content/FirstPersonBP/Character/KillerDrone_Skeleton.uasset
+	Content/FirstPersonBP/Textures/KillerDrone_UV_.uasset
+	Saved/Backup/BasicAICharacter_2015-06-02-09-29-45.uasset
+	Saved/Backup/BasicAIController_2015-06-02-09-29-45.uasset
+	Saved/Backup/BasicBehaviorTree_2015-06-02-09-29-30.uasset
+	Saved/Backup/FindPlayer_2015-06-02-09-29-45.uasset
+	Saved/Backup/FirstPersonExampleMap_2015-06-02-09-25-29.umap
+	Saved/Logs/Dump1910700336.dmp
+	Saved/Logs/Shooter-backup-2015.06.02-09.15.33.log
+	Saved/Logs/Shooter-backup-2015.06.02-09.26.43.log
+	Saved/Logs/Shooter-backup-2015.06.02-09.31.02.log
+	Saved/Logs/Shooter-backup-2015.06.02-09.34.57.log
+
+'
+[2015.06.02-13.35.52:456][775]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.06.02-13.35.52:501][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Guillaume
+'
+[2015.06.02-13.35.52:501][775]SourceControl: Info Guillaume
+[2015.06.02-13.35.52:536][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset"'
+[2015.06.02-13.35.52:594][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+'
+[2015.06.02-13.35.52:676][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset"'
+[2015.06.02-13.35.52:728][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+'
+[2015.06.02-13.35.52:761][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset"'
+[2015.06.02-13.35.52:812][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+'
+[2015.06.02-13.35.52:841][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset"'
+[2015.06.02-13.35.52:895][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+'
+[2015.06.02-13.35.52:927][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset"'
+[2015.06.02-13.35.52:980][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+'
+[2015.06.02-13.35.53:020][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset"'
+[2015.06.02-13.35.53:078][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.35.53:107][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset"'
+[2015.06.02-13.35.53:165][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+'
+[2015.06.02-13.35.53:198][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset"'
+[2015.06.02-13.35.53:256][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+'
+[2015.06.02-13.35.53:256][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset"'
+[2015.06.02-13.35.53:300][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.35.53:375][775]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "ConeDeVision" in 'FindPlayer'.
+Make sure 'FindPlayer' has been compiled for  Get ConeDeVision 
+[2015.06.02-13.35.53:375][775]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "ConeDeVision" in 'FindPlayer'.
+Make sure 'FindPlayer' has been compiled for  Set ConeDeVision 
+[2015.06.02-13.35.53:375][775]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PerceptionRadius" in 'FindPlayer'.
+Make sure 'FindPlayer' has been compiled for  Get PerceptionRadius 
+[2015.06.02-13.35.53:376][775]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection.
+[2015.06.02-13.35.53:376][775]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection.
+[2015.06.02-13.35.53:376][775]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection.
+[2015.06.02-13.35.53:377][775]LogBlueprint:Error: [compiler] Error The property associated with  Perception Radius  could not be found
+[2015.06.02-13.35.53:377][775]LogBlueprint:Error: [compiler] Error The property associated with  Cone De Vision  could not be found
+[2015.06.02-13.35.53:377][775]LogBlueprint:Error: [compiler] Error The property associated with  Cone De Vision  could not be found
+[2015.06.02-13.35.53:426][775]LogBlueprint:Warning: [compiler] Warning [0057.62] Compile of FindPlayer failed. 6 Fatal Issue(s) 3 Warning(s) [in 57 ms]
+[2015.06.02-13.35.53:426][775]LogBlueprint:Warning: [compiler] Warning [0057.62] Compile of FindPlayer failed. 6 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.06.02-13.35.53:426][775]LogBlueprint:Warning: [compiler] Warning [0057.62] Compile of FindPlayer failed. 6 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.06.02-13.35.53:426][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.02-13.35.53:426][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.02-13.35.53:426][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.06.02-13.35.53:440][775]LogBlueprint:Warning: [compiler] Warning [0057.64] Compile of FindPlayer failed. 6 Fatal Issue(s) 6 Warning(s) [in 14 ms]
+[2015.06.02-13.35.53:440][775]LogBlueprint:Warning: [compiler] Warning [0057.64] Compile of FindPlayer failed. 6 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.06.02-13.35.53:440][775]LogBlueprint:Warning: [compiler] Warning [0057.64] Compile of FindPlayer failed. 6 Fatal Issue(s) 8 Warning(s) [in 0 ms]
+[2015.06.02-13.35.53:440][775]LogBlueprint:Warning: [compiler] Warning [0057.64] Compile of FindPlayer failed. 6 Fatal Issue(s) 9 Warning(s) [in 0 ms]
+[2015.06.02-13.35.53:441][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FindPlayer.FindPlayer_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.PackageMetaData'
+[2015.06.02-13.35.53:441][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FindPlayer.SKEL_FindPlayer_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.PackageMetaData'
+[2015.06.02-13.35.53:454][775]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.53:454][775]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset.
+[2015.06.02-13.35.53:454][775]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.53:454][775]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset.
+[2015.06.02-13.35.53:457][775]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.53:457][775]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset.
+[2015.06.02-13.35.53:458][775]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicAIController'
+[2015.06.02-13.35.53:458][775]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicAIController' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset.
+[2015.06.02-13.35.53:459][775]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.53:459][775]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.53:460][775]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/BasicTask'
+[2015.06.02-13.35.53:460][775]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/BasicTask' while loading C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset.
+[2015.06.02-13.35.53:514][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/BasicAICharacter.BasicAICharacter:UserConstructionScript.K2Node_FunctionEntry_456' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.PackageMetaData'
+[2015.06.02-13.35.53:514][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/BasicAICharacter.BasicAICharacter_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.PackageMetaData'
+[2015.06.02-13.35.53:514][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/BasicAICharacter.SKEL_BasicAICharacter_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.PackageMetaData'
+[2015.06.02-13.35.53:577][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.PackageMetaData'
+[2015.06.02-13.35.53:577][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController:UserConstructionScript.K2Node_FunctionEntry_454' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.PackageMetaData'
+[2015.06.02-13.35.53:577][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController:EventGraph.K2Node_Event_294' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.PackageMetaData'
+[2015.06.02-13.35.53:577][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/BasicAIController.BasicAIController:EventGraph.K2Node_Event_295' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.PackageMetaData'
+[2015.06.02-13.35.53:577][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/BasicAIController.SKEL_BasicAIController_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.PackageMetaData'
+[2015.06.02-13.35.53:633][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/BasicTask.BasicTask_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.PackageMetaData'
+[2015.06.02-13.35.53:633][775]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/BasicTask.SKEL_BasicTask_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.PackageMetaData'
+[2015.06.02-13.35.53:698][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FindPlayer" FILE="C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset" SILENT=true
+[2015.06.02-13.35.53:732][775]LogSavePackage: Save=31.638006ms
+[2015.06.02-13.35.53:732][775]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FindPlayerEAF25BC442EFE6CE3BC26ABD9E525A81.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset'
+[2015.06.02-13.35.53:767][775]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset"'
+[2015.06.02-13.35.53:836][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.02-13.35.53:836][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset"'
+[2015.06.02-13.35.53:891][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/FindPlayer.uasset
+'
+[2015.06.02-13.35.54:299][775]LogSavePackage: Save=364.700653ms
+[2015.06.02-13.35.54:299][775]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/BasicAICharacter6243C39B4A2D62DCE432F484B371EFE3.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset'
+[2015.06.02-13.35.54:333][775]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset"'
+[2015.06.02-13.35.54:390][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.02-13.35.54:390][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset"'
+[2015.06.02-13.35.54:445][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset
+'
+[2015.06.02-13.35.54:480][775]LogSavePackage: Save=27.545259ms
+[2015.06.02-13.35.54:480][775]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/BasicAIController5E1330B44BF9087C807223BB4F949C84.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset'
+[2015.06.02-13.35.54:509][775]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset"'
+[2015.06.02-13.35.54:572][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.02-13.35.54:572][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset"'
+[2015.06.02-13.35.54:616][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/BasicAIController.uasset
+'
+[2015.06.02-13.35.54:632][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/BasicTask" FILE="C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset" SILENT=true
+[2015.06.02-13.35.54:663][775]LogSavePackage: Save=16.984341ms
+[2015.06.02-13.35.54:663][775]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/BasicTask807128DB4A0E429D2AA0D0AB8CA7A82B.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset'
+[2015.06.02-13.35.54:694][775]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset"'
+[2015.06.02-13.35.54:755][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.02-13.35.54:755][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset"'
+[2015.06.02-13.35.54:810][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/BasicTask.uasset
+'
+[2015.06.02-13.35.54:843][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset"'
+[2015.06.02-13.35.54:930][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+'
+[2015.06.02-13.35.54:960][775]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset"'
+[2015.06.02-13.35.55:040][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.02-13.35.55:076][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset"'
+[2015.06.02-13.35.55:167][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+'
+[2015.06.02-13.35.55:199][775]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset"'
+[2015.06.02-13.35.55:283][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.02-13.35.55:322][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset"'
+[2015.06.02-13.35.55:395][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+'
+[2015.06.02-13.35.55:424][775]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset"'
+[2015.06.02-13.35.55:515][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.02-13.35.55:547][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset"'
+[2015.06.02-13.35.55:621][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+'
+[2015.06.02-13.35.55:656][775]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset"'
+[2015.06.02-13.35.55:727][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.02-13.35.55:758][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset"'
+[2015.06.02-13.35.55:824][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.35.55:852][775]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset"'
+[2015.06.02-13.35.55:913][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.02-13.35.55:947][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset"'
+[2015.06.02-13.35.56:010][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+'
+[2015.06.02-13.35.56:041][775]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset"'
+[2015.06.02-13.35.56:111][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.02-13.35.56:169][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.02-13.35.56:215][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset"'
+[2015.06.02-13.35.56:267][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+'
+[2015.06.02-13.35.56:324][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset"'
+[2015.06.02-13.35.56:382][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+'
+[2015.06.02-13.35.56:433][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset"'
+[2015.06.02-13.35.56:488][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+'
+[2015.06.02-13.35.56:542][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset"'
+[2015.06.02-13.35.56:595][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+'
+[2015.06.02-13.35.56:809][775]LogSourceControl: RunCommandInternalRaw: 'git reset "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset"'
+[2015.06.02-13.35.57:186][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+M	Intermediate/CachedAssetRegistry.bin
+M	Saved/AutoScreenshot.png
+D	Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+M	Saved/Config/Windows/Editor.ini
+M	Saved/Config/Windows/EditorLayout.ini
+M	Saved/Config/Windows/EditorUserSettings.ini
+D	Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+D	Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+D	Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+D	Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+D	Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+D	Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+D	Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+D	Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+M	Saved/Logs/Shooter.log
+'
+[2015.06.02-13.35.57:186][775]LogSourceControl: RunCommandInternalRaw: 'git checkout "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset"'
+[2015.06.02-13.35.57:242][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutResults=''
+[2015.06.02-13.35.57:242][775]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutErrors='error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset' did not match any file(s) known to git.
+'
+[2015.06.02-13.35.57:242][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset"'
+[2015.06.02-13.35.57:308][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset
+'
+[2015.06.02-13.35.57:308][775]SourceControl:Error: Error error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset' did not match any file(s) known to git.
+[2015.06.02-13.35.57:339][775]LogSourceControl: RunCommandInternalRaw: 'git reset "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset"'
+[2015.06.02-13.35.57:432][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+M	Intermediate/CachedAssetRegistry.bin
+M	Saved/AutoScreenshot.png
+D	Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+M	Saved/Config/Windows/Editor.ini
+M	Saved/Config/Windows/EditorLayout.ini
+M	Saved/Config/Windows/EditorUserSettings.ini
+D	Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+D	Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+D	Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+D	Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+D	Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+D	Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+D	Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+D	Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+M	Saved/Logs/Shooter.log
+'
+[2015.06.02-13.35.57:432][775]LogSourceControl: RunCommandInternalRaw: 'git checkout "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset"'
+[2015.06.02-13.35.57:476][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutResults=''
+[2015.06.02-13.35.57:476][775]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutErrors='error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset' did not match any file(s) known to git.
+'
+[2015.06.02-13.35.57:476][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset"'
+[2015.06.02-13.35.57:541][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset
+'
+[2015.06.02-13.35.57:541][775]SourceControl:Error: Error error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset' did not match any file(s) known to git.
+[2015.06.02-13.35.57:572][775]LogSourceControl: RunCommandInternalRaw: 'git reset "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset"'
+[2015.06.02-13.35.57:656][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+M	Intermediate/CachedAssetRegistry.bin
+M	Saved/AutoScreenshot.png
+D	Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+M	Saved/Config/Windows/Editor.ini
+M	Saved/Config/Windows/EditorLayout.ini
+M	Saved/Config/Windows/EditorUserSettings.ini
+D	Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+D	Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+D	Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+D	Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+D	Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+D	Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+D	Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+D	Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+M	Saved/Logs/Shooter.log
+'
+[2015.06.02-13.35.57:656][775]LogSourceControl: RunCommandInternalRaw: 'git checkout "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset"'
+[2015.06.02-13.35.57:700][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutResults=''
+[2015.06.02-13.35.57:700][775]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutErrors='error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset' did not match any file(s) known to git.
+'
+[2015.06.02-13.35.57:700][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset"'
+[2015.06.02-13.35.57:755][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset
+'
+[2015.06.02-13.35.57:755][775]SourceControl:Error: Error error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset' did not match any file(s) known to git.
+[2015.06.02-13.35.57:786][775]LogSourceControl: RunCommandInternalRaw: 'git reset "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset"'
+[2015.06.02-13.35.57:889][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+M	Intermediate/CachedAssetRegistry.bin
+M	Saved/AutoScreenshot.png
+D	Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+M	Saved/Config/Windows/Editor.ini
+M	Saved/Config/Windows/EditorLayout.ini
+M	Saved/Config/Windows/EditorUserSettings.ini
+D	Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+D	Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+D	Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+D	Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+D	Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+D	Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+D	Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+D	Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+M	Saved/Logs/Shooter.log
+'
+[2015.06.02-13.35.57:889][775]LogSourceControl: RunCommandInternalRaw: 'git checkout "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset"'
+[2015.06.02-13.35.57:933][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutResults=''
+[2015.06.02-13.35.57:933][775]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutErrors='error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset' did not match any file(s) known to git.
+'
+[2015.06.02-13.35.57:933][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset"'
+[2015.06.02-13.35.57:977][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset
+'
+[2015.06.02-13.35.57:977][775]SourceControl:Error: Error error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset' did not match any file(s) known to git.
+[2015.06.02-13.35.58:007][775]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset"'
+[2015.06.02-13.35.58:066][775]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.35.58:152][775]LogSavePackage: Save=6.643887ms
+[2015.06.02-13.35.58:152][775]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/BasicBehaviorTree3A97B1644AEA9BCA0D26878648B45527.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset'
+[2015.06.02-13.35.58:180][776]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/FindPlayer.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicTask.uasset"'
+[2015.06.02-13.35.58:250][777]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+A  Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.35.58:250][777]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset"'
+[2015.06.02-13.35.58:303][779]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset
+A  Content/FirstPersonBP/Blueprints/BasicAIController.uasset
+A  Content/FirstPersonBP/Blueprints/BasicTask.uasset
+A  Content/FirstPersonBP/Blueprints/FindPlayer.uasset
+?? Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.36.01:557][163]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.06.02-13.36.02:573][224]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AmmoBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/CheckpointCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/DamageCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookWall.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/Killzone_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/MyShake.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/WidgetHUD.uasset"'
+[2015.06.02-13.36.02:637][228]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset
+A  Content/FirstPersonBP/Blueprints/BasicAIController.uasset
+A  Content/FirstPersonBP/Blueprints/BasicTask.uasset
+A  Content/FirstPersonBP/Blueprints/FindPlayer.uasset
+?? Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset
+?? Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.36.02:990][253]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints/AI/Kamikaze'
+[2015.06.02-13.36.03:996][373]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset"'
+[2015.06.02-13.36.04:046][379]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+A  Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.36.05:407][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.02-13.36.05:407][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.02-13.36.05:407][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.06.02-13.36.07:920][542]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset"'
+[2015.06.02-13.36.07:977][542]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+'
+[2015.06.02-13.36.08:008][542]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset"'
+[2015.06.02-13.36.08:061][542]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.36.08:187][542]LogSourceControl: RunCommandInternalRaw: 'git reset "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset"'
+[2015.06.02-13.36.08:276][542]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+M	Intermediate/CachedAssetRegistry.bin
+M	Saved/AutoScreenshot.png
+D	Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+M	Saved/Config/Windows/Editor.ini
+M	Saved/Config/Windows/EditorLayout.ini
+M	Saved/Config/Windows/EditorUserSettings.ini
+D	Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+D	Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+D	Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+D	Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+D	Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+D	Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+D	Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+D	Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+M	Saved/Logs/Shooter.log
+'
+[2015.06.02-13.36.08:276][542]LogSourceControl: RunCommandInternalRaw: 'git checkout "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset"'
+[2015.06.02-13.36.08:309][542]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutResults=''
+[2015.06.02-13.36.08:309][542]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutErrors='error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset' did not match any file(s) known to git.
+'
+[2015.06.02-13.36.08:309][542]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset"'
+[2015.06.02-13.36.08:363][542]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset
+'
+[2015.06.02-13.36.08:363][542]SourceControl:Error: Error error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicAIBlackboard.uasset' did not match any file(s) known to git.
+[2015.06.02-13.36.08:395][542]LogSourceControl: RunCommandInternalRaw: 'git reset "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset"'
+[2015.06.02-13.36.08:477][542]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+M	Intermediate/CachedAssetRegistry.bin
+M	Saved/AutoScreenshot.png
+D	Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+M	Saved/Config/Windows/Editor.ini
+M	Saved/Config/Windows/EditorLayout.ini
+M	Saved/Config/Windows/EditorUserSettings.ini
+D	Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+D	Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+D	Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+D	Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+D	Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+D	Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+D	Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+D	Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+M	Saved/Logs/Shooter.log
+'
+[2015.06.02-13.36.08:477][542]LogSourceControl: RunCommandInternalRaw: 'git checkout "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset"'
+[2015.06.02-13.36.08:521][542]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutResults=''
+[2015.06.02-13.36.08:521][542]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutErrors='error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset' did not match any file(s) known to git.
+'
+[2015.06.02-13.36.08:521][542]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset"'
+[2015.06.02-13.36.08:576][542]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.36.08:576][542]SourceControl:Error: Error error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Kamikaze/BasicBehaviorTree.uasset' did not match any file(s) known to git.
+[2015.06.02-13.36.09:980][702]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.06.02-13.36.11:004][765]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AmmoBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/CheckpointCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/DamageCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookWall.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/Killzone_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/MyShake.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/WidgetHUD.uasset"'
+[2015.06.02-13.36.11:086][770]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset
+A  Content/FirstPersonBP/Blueprints/BasicAIController.uasset
+A  Content/FirstPersonBP/Blueprints/BasicTask.uasset
+A  Content/FirstPersonBP/Blueprints/FindPlayer.uasset
+?? Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset
+?? Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.36.18:294][348]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.02-13.36.18:295][348]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.06.02-13.36.18:325][348]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.02-13.36.18:325][348]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.02-13.36.18:325][348]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.06.02-13.36.18:337][348]LogPlayLevel: PIE:  Blueprint regeneration took 42 ms (1 blueprints)
+[2015.06.02-13.36.22:866][519]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.02-13.36.22:866][519]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.06.02-13.36.22:896][519]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.02-13.36.22:896][519]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.02-13.36.22:896][519]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.06.02-13.36.22:909][519]LogPlayLevel: PIE:  Blueprint regeneration took 43 ms (1 blueprints)
+[2015.06.02-13.36.27:617][764]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints/AI'
+[2015.06.02-13.36.32:174][289]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/HealthPack_Blueprint.uasset"'
+[2015.06.02-13.36.32:222][294]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.02-13.36.33:009][378]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.06.02-13.36.34:034][440]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AmmoBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/CheckpointCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/DamageCube_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthBox.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HealthCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookCube.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/HookWall.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/Killzone_Blueprint.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/MyShake.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/WidgetHUD.uasset"'
+[2015.06.02-13.36.34:089][443]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset
+A  Content/FirstPersonBP/Blueprints/BasicAIController.uasset
+A  Content/FirstPersonBP/Blueprints/BasicTask.uasset
+A  Content/FirstPersonBP/Blueprints/FindPlayer.uasset
+?? Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset
+?? Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.36.38:973][755]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.02-13.36.38:973][755]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.02-13.36.38:973][755]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.06.02-13.36.40:760][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BasicTask_C_5' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:760][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BasicTask_C_4' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:760][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BasicTask_C_219' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:761][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BasicAIController_C_3' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:761][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BasicAIController_C_2' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:761][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BasicTask_C_218' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:761][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_BasicAIController' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:761][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BasicAICharacter_C_1' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:761][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BasicAIController_C_217' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:761][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BasicAIController_C_216' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:761][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BasicAICharacter_C_215' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:761][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BasicAICharacter_C_0' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:761][755]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BasicAICharacter_C_214' or package '/Engine/Transient'.
+[2015.06.02-13.36.40:986][755]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset"'
+[2015.06.02-13.36.41:039][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/BasicTask.uasset
+'
+[2015.06.02-13.36.41:134][755]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset"'
+[2015.06.02-13.36.41:188][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/BasicAIController.uasset
+'
+[2015.06.02-13.36.41:247][755]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset"'
+[2015.06.02-13.36.41:306][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset
+'
+[2015.06.02-13.36.41:431][755]LogSourceControl: RunCommandInternalRaw: 'git reset "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset"'
+[2015.06.02-13.36.41:515][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+M	Intermediate/CachedAssetRegistry.bin
+M	Saved/AutoScreenshot.png
+D	Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+M	Saved/Config/Windows/Editor.ini
+M	Saved/Config/Windows/EditorLayout.ini
+M	Saved/Config/Windows/EditorUserSettings.ini
+D	Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+D	Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+D	Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+D	Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+D	Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+D	Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+D	Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+D	Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+M	Saved/Logs/Shooter.log
+'
+[2015.06.02-13.36.41:515][755]LogSourceControl: RunCommandInternalRaw: 'git checkout "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset"'
+[2015.06.02-13.36.41:559][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutResults=''
+[2015.06.02-13.36.41:559][755]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutErrors='error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset' did not match any file(s) known to git.
+'
+[2015.06.02-13.36.41:559][755]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset"'
+[2015.06.02-13.36.41:613][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/BasicTask.uasset
+'
+[2015.06.02-13.36.41:613][755]SourceControl:Error: Error error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset' did not match any file(s) known to git.
+[2015.06.02-13.36.41:648][755]LogSourceControl: RunCommandInternalRaw: 'git reset "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset"'
+[2015.06.02-13.36.41:727][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+M	Intermediate/CachedAssetRegistry.bin
+M	Saved/AutoScreenshot.png
+D	Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+M	Saved/Config/Windows/Editor.ini
+M	Saved/Config/Windows/EditorLayout.ini
+M	Saved/Config/Windows/EditorUserSettings.ini
+D	Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+D	Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+D	Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+D	Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+D	Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+D	Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+D	Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+D	Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+M	Saved/Logs/Shooter.log
+'
+[2015.06.02-13.36.41:727][755]LogSourceControl: RunCommandInternalRaw: 'git checkout "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset"'
+[2015.06.02-13.36.41:771][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutResults=''
+[2015.06.02-13.36.41:771][755]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutErrors='error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset' did not match any file(s) known to git.
+'
+[2015.06.02-13.36.41:771][755]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset"'
+[2015.06.02-13.36.41:826][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/BasicAIController.uasset
+'
+[2015.06.02-13.36.41:826][755]SourceControl:Error: Error error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset' did not match any file(s) known to git.
+[2015.06.02-13.36.41:854][755]LogSourceControl: RunCommandInternalRaw: 'git reset "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset"'
+[2015.06.02-13.36.41:939][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+M	Intermediate/CachedAssetRegistry.bin
+M	Saved/AutoScreenshot.png
+D	Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+M	Saved/Config/Windows/Editor.ini
+M	Saved/Config/Windows/EditorLayout.ini
+M	Saved/Config/Windows/EditorUserSettings.ini
+D	Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+D	Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+D	Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+D	Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+D	Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+D	Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+D	Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+D	Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+M	Saved/Logs/Shooter.log
+'
+[2015.06.02-13.36.41:939][755]LogSourceControl: RunCommandInternalRaw: 'git checkout "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset"'
+[2015.06.02-13.36.41:972][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutResults=''
+[2015.06.02-13.36.41:972][755]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutErrors='error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset' did not match any file(s) known to git.
+'
+[2015.06.02-13.36.41:972][755]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset"'
+[2015.06.02-13.36.42:027][755]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset
+'
+[2015.06.02-13.36.42:027][755]SourceControl:Error: Error error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset' did not match any file(s) known to git.
+[2015.06.02-13.37.03:782][204]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.02-13.37.03:782][204]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.02-13.37.19:308][204]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FindPlayer_C_6' or package '/Engine/Transient'.
+[2015.06.02-13.37.19:308][204]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FindPlayer_C_7' or package '/Engine/Transient'.
+[2015.06.02-13.37.19:308][204]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_FindPlayer_C_221' or package '/Engine/Transient'.
+[2015.06.02-13.37.19:308][204]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_FindPlayer_C_220' or package '/Engine/Transient'.
+[2015.06.02-13.37.19:393][204]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset"'
+[2015.06.02-13.37.19:450][204]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/FindPlayer.uasset
+'
+[2015.06.02-13.37.19:519][204]LogSourceControl: RunCommandInternalRaw: 'git reset "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset"'
+[2015.06.02-13.37.19:600][204]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+M	Intermediate/CachedAssetRegistry.bin
+M	Saved/AutoScreenshot.png
+D	Saved/Backup/FirstPersonExampleMap_2015-05-23-11-41-27.umap
+M	Saved/Config/Windows/Editor.ini
+M	Saved/Config/Windows/EditorLayout.ini
+M	Saved/Config/Windows/EditorUserSettings.ini
+D	Saved/Logs/Shooter-backup-2015.05.19-13.48.28.log
+D	Saved/Logs/Shooter-backup-2015.05.19-16.15.40.log
+D	Saved/Logs/Shooter-backup-2015.05.20-09.09.26.log
+D	Saved/Logs/Shooter-backup-2015.05.23-10.16.03.log
+D	Saved/Logs/Shooter-backup-2015.05.23-11.24.25.log
+D	Saved/Logs/Shooter-backup-2015.05.23-12.02.12.log
+D	Saved/Logs/Shooter-backup-2015.05.23-21.52.18.log
+D	Saved/Logs/Shooter-backup-2015.05.24-12.05.32.log
+M	Saved/Logs/Shooter.log
+'
+[2015.06.02-13.37.19:600][204]LogSourceControl: RunCommandInternalRaw: 'git checkout "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset"'
+[2015.06.02-13.37.19:644][204]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutResults=''
+[2015.06.02-13.37.19:644][204]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutErrors='error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset' did not match any file(s) known to git.
+'
+[2015.06.02-13.37.19:644][204]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset"'
+[2015.06.02-13.37.19:699][204]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/FindPlayer.uasset
+'
+[2015.06.02-13.37.19:699][204]SourceControl:Error: Error error: pathspec 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset' did not match any file(s) known to git.
+[2015.06.02-13.37.21:711][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.02-13.37.21:711][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.02-13.37.21:764][333]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap"'
+[2015.06.02-13.37.21:830][333]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+'
+[2015.06.02-13.37.21:830][333]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset"'
+[2015.06.02-13.37.21:874][333]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset
+?? Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.37.23:923][333]LogSavePackage: Save=1877.312012ms
+[2015.06.02-13.37.23:923][333]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap99066E274EC26F5209E7E390EB08972B.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.06.02-13.37.23:953][333]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.019
+[2015.06.02-13.37.23:967][333]LogSavePackage: Save=1.901245ms
+[2015.06.02-13.37.23:967][333]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/BasicAIBlackboard116610E04ECB16FCE42DB89EFE902247.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset'
+[2015.06.02-13.37.23:982][333]LogSavePackage: Save=1.626999ms
+[2015.06.02-13.37.23:982][333]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/BasicBehaviorTree080D74DA4C584B4EBFCEB7B6C7C3D291.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset'
+[2015.06.02-13.37.23:994][334]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap"'
+[2015.06.02-13.37.24:050][339]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+'
+[2015.06.02-13.37.24:050][339]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset"'
+[2015.06.02-13.37.24:109][343]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset
+?? Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+'
+[2015.06.02-13.37.26:224][530]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.02-13.37.26:224][530]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.06.02-13.37.26:256][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.02-13.37.26:256][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.02-13.37.26:269][530]LogPlayLevel: PIE:  Blueprint regeneration took 45 ms (1 blueprints)
+[2015.06.02-13.37.26:270][530]PIE: New page: PIE session: FirstPersonExampleMap (Jun 2, 2015, 5:37:26 AM)
+[2015.06.02-13.37.26:297][530]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.02-13.37.26:297][530]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.02-13.37.26:300][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030180s)
+[2015.06.02-13.37.26:301][530]LogPlayLevel: PIE: World Init took: (0.001008s)
+[2015.06.02-13.37.26:301][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031458s)
+[2015.06.02-13.37.26:433][530]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.02-13.37.26:435][530]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.02-13.37.26:443][530]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.06.02-09.37.26
+[2015.06.02-13.37.26:443][530]LogWorld: Bringing up level for play took: 0.008330
+[2015.06.02-13.37.26:446][530]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.761
+[2015.06.02-13.37.35:117][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000551A65C360
+[2015.06.02-13.37.38:837][992]Cmd: POLY SELECT ADJACENT WALLS
+[2015.06.02-13.37.40:211][ 92]Cmd: POLY SELECT ADJACENT WALLS
+[2015.06.02-13.38.10:317][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.06.02-13.38.11:308][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube06)
+[2015.06.02-13.38.12:142][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.02-13.38.12:142][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.02-13.38.15:708][698]Cmd: QUIT_EDITOR
+[2015.06.02-13.38.15:901][698]LogExit: Preparing to exit.
+[2015.06.02-13.38.16:094][698]LogExit: Editor shut down
+[2015.06.02-13.38.16:095][698]LogExit: Transaction tracking system shut down
+[2015.06.02-13.38.16:097][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055168942C0
+[2015.06.02-13.38.16:097][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000554749F100
+[2015.06.02-13.38.16:097][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055482E32E0
+[2015.06.02-13.38.16:097][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005546D87D80
+[2015.06.02-13.38.16:097][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005546D87A60
+[2015.06.02-13.38.16:187][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000551D16E8E0
+[2015.06.02-13.38.16:187][698]LogExit: Object subsystem successfully closed.
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.06.02-13.38.16:224][698]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.06.02-13.38.16:225][698]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.06.02-13.38.16:225][698]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.06.02-13.38.16:225][698]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.06.02-13.38.16:225][698]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.06.02-13.38.16:225][698]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.06.02-13.38.16:225][698]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.06.02-13.38.16:225][698]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.06.02-13.38.16:225][698]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.06.02-13.38.16:225][698]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.06.02-13.38.16:225][698]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.06.02-13.38.16:225][698]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.06.02-13.38.16:811][698]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.06.02-13.38.16:811][698]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.06.02-13.38.16:811][698]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.06.02-13.38.16:811][698]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.06.02-13.38.16:811][698]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.06.02-13.38.16:812][698]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.06.02-13.38.16:812][698]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.06.02-13.38.16:812][698]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.06.02-13.38.16:812][698]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.06.02-13.38.16:812][698]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.06.02-13.38.16:813][698]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.06.02-13.38.16:813][698]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.06.02-13.38.16:813][698]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.06.02-13.38.16:813][698]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.06.02-13.38.16:813][698]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.06.02-13.38.16:814][698]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.06.02-13.38.16:814][698]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.06.02-13.38.16:814][698]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.06.02-13.38.16:814][698]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.06.02-13.38.16:933][698]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.06.02-13.38.16:933][698]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.06.02-13.38.16:933][698]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.06.02-13.38.16:934][698]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.06.02-13.38.17:001][698]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.06.02-13.38.17:002][698]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.06.02-13.38.17:002][698]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.06.02-13.38.17:002][698]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.06.02-13.38.17:002][698]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.06.02-13.38.17:103][698]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.06.02-13.38.17:103][698]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.06.02-13.38.17:105][698]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.06.02-13.38.17:109][698]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.06.02-13.38.17:109][698]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.06.02-13.38.17:109][698]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.06.02-13.38.17:109][698]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.06.02-13.38.17:109][698]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.06.02-13.38.17:109][698]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.06.02-13.38.17:109][698]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.06.02-13.38.17:109][698]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.06.02-13.38.17:109][698]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.06.02-13.38.17:109][698]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.06.02-13.38.17:183][698]LogDerivedDataCache: Shutdown
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.02-13.38.17:183][698]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.02-13.38.17:184][698]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.02-13.38.17:184][698]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.02-13.38.17:184][698]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.02-13.38.17:184][698]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.02-13.38.17:184][698]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.02-13.38.17:184][698]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.02-13.38.17:184][698]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.02-13.38.17:184][698]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.02-13.38.17:184][698]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.02-13.38.17:185][698]LogExit: Exiting.
+[2015.06.02-13.38.17:189][698]Log file closed, 06/02/15 09:38:17
