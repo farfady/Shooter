@@ -973,4 +973,489 @@ M  Content/FirstPersonBP/Blueprints/FindPlayer.uasset
 [2015.06.03-13.54.07:742][223]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
 [2015.06.03-13.54.07:742][223]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/FindPlayer.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/BasicTask.uasset"'
 [2015.06.03-13.54.07:817][232]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='MM Content/FirstPersonBP/Blueprints/BasicAIBlackboard.uasset
-MM Content/Fir
+MM Content/FirstPersonBP/Blueprints/BasicAICharacter.uasset
+MM Content/FirstPersonBP/Blueprints/BasicAIController.uasset
+MM Content/FirstPersonBP/Blueprints/BasicBehaviorTree.uasset
+MM Content/FirstPersonBP/Blueprints/BasicTask.uasset
+MM Content/FirstPersonBP/Blueprints/FindPlayer.uasset
+'
+[2015.06.03-13.54.07:817][232]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Geoffrey/FindPlayer.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Geoffrey/BasicAIBlackboard.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Geoffrey/BasicAICharacter.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Geoffrey/BasicAIController.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Geoffrey/BasicBehaviorTree.uasset" "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/Geoffrey/BasicTask.uasset"'
+[2015.06.03-13.54.07:883][240]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPersonBP/Blueprints/AI/Geoffrey/BasicAIBlackboard.uasset
+A  Content/FirstPersonBP/Blueprints/AI/Geoffrey/BasicAICharacter.uasset
+A  Content/FirstPersonBP/Blueprints/AI/Geoffrey/BasicAIController.uasset
+A  Content/FirstPersonBP/Blueprints/AI/Geoffrey/BasicBehaviorTree.uasset
+A  Content/FirstPersonBP/Blueprints/AI/Geoffrey/BasicTask.uasset
+A  Content/FirstPersonBP/Blueprints/AI/Geoffrey/FindPlayer.uasset
+'
+[2015.06.03-14.01.50:348][666]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.03-14.01.50:348][666]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.06.03-14.01.52:442][666]LogSavePackage: Save=1839.624268ms
+[2015.06.03-14.01.52:442][666]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap_Auto1F86591DC48613EE69E82BDBB02BF2D31.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.06.03-14.01.52:450][666]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.102
+[2015.06.03-14.01.52:450][666]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.102
+[2015.06.03-14.01.52:482][666]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/AI/AIGui/AIGui_BehaviorTree] ([1] browsable assets)...
+[2015.06.03-14.01.52:482][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/AI/AIGui/AIGui_BehaviorTree]
+[2015.06.03-14.01.52:686][666]LogSavePackage: Save=170.416946ms
+[2015.06.03-14.01.52:688][666]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/AIGui_BehaviorTree_Auto1BDD242354508ED5FBDA001A6B6E889DD.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Blueprints/AI/AIGui/AIGui_BehaviorTree_Auto1.uasset'
+[2015.06.03-14.01.52:708][666]LogFileHelpers: Auto-saving content packages took 0.258
+[2015.06.03-14.34.30:546][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.03-14.34.30:546][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.06.03-14.34.30:601][674]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap"'
+[2015.06.03-14.34.33:379][674]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.03-14.34.33:379][674]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/AIGui/AIGui_BehaviorTree.uasset"'
+[2015.06.03-14.34.33:434][674]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.03-14.34.36:025][674]LogSavePackage: Save=1885.218018ms
+[2015.06.03-14.34.36:025][674]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap9357FA434AC7D8B4F1830D9183D5DD14.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.06.03-14.34.36:058][674]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.558
+[2015.06.03-14.34.36:076][674]LogSavePackage: Save=7.031444ms
+[2015.06.03-14.34.36:076][674]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/AIGui_BehaviorTree49630EA548FDA54946186E9F7D586674.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/AIGui/AIGui_BehaviorTree.uasset'
+[2015.06.03-14.34.36:092][675]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap"'
+[2015.06.03-14.34.36:156][679]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+'
+[2015.06.03-14.34.36:156][679]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Blueprints/AI/AIGui/AIGui_BehaviorTree.uasset"'
+[2015.06.03-14.34.36:218][681]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/FirstPersonBP/Blueprints/AI/AIGui/AIGui_BehaviorTree.uasset
+'
+[2015.06.03-14.44.33:022][571]LogSavePackage: Save=2028.414795ms
+[2015.06.03-14.44.33:022][571]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap_Auto289A397784E548E0C355212BA3A0A8BEB.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2015.06.03-14.44.33:030][571]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.167
+[2015.06.03-14.44.33:030][571]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.167
+[2015.06.03-14.52.46:275][802]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.03-14.52.46:278][802]LogPlayLevel: [PIE] Compiling FindPlayer before PIE...
+[2015.06.03-14.52.46:330][802]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.06.03-14.52.46:389][802]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (2 blueprints)
+[2015.06.03-14.52.46:390][802]PIE: New page: PIE session: FirstPersonExampleMap (Jun 3, 2015, 6:52:46 AM)
+[2015.06.03-14.52.46:421][802]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.03-14.52.46:421][802]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.03-14.52.46:424][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033956s)
+[2015.06.03-14.52.46:426][802]LogPlayLevel: PIE: World Init took: (0.002499s)
+[2015.06.03-14.52.46:427][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036696s)
+[2015.06.03-14.52.46:485][802]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.03-14.52.46:488][802]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.03-14.52.46:498][802]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.03-14.52.46:498][802]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.06.03-10.52.46
+[2015.06.03-14.52.46:499][802]LogWorld: Bringing up level for play took: 0.011041
+[2015.06.03-14.52.46:501][802]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.678
+[2015.06.03-14.52.46:526][803]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.46:750][829]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.46:909][848]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.47:217][885]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.47:358][902]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.47:650][937]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.47:808][956]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.48:108][992]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.48:333][ 19]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.48:458][ 34]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.48:792][ 74]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.49:042][104]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.52.49:234][127]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.01:558][574]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.05:009][988]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.05:150][  5]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.05:443][ 40]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.05:633][ 63]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.05:959][102]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.06:233][135]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.06:425][158]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.06:708][192]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.07:000][227]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.07:034][231]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.07:150][245]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.07:417][277]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.07:548][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A91B9D940
+[2015.06.03-14.53.40:115][127]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.03-14.53.40:118][127]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.06.03-14.53.40:178][127]LogPlayLevel: PIE:  Blueprint regeneration took 63 ms (1 blueprints)
+[2015.06.03-14.53.40:178][127]PIE: New page: PIE session: FirstPersonExampleMap (Jun 3, 2015, 6:53:40 AM)
+[2015.06.03-14.53.40:208][127]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.03-14.53.40:208][127]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.03-14.53.40:211][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031757s)
+[2015.06.03-14.53.40:212][127]LogPlayLevel: PIE: World Init took: (0.001180s)
+[2015.06.03-14.53.40:212][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.033169s)
+[2015.06.03-14.53.40:266][127]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.03-14.53.40:268][127]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.03-14.53.40:277][127]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.03-14.53.40:277][127]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.06.03-10.53.40
+[2015.06.03-14.53.40:279][127]LogWorld: Bringing up level for play took: 0.010572
+[2015.06.03-14.53.40:281][127]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.458
+[2015.06.03-14.53.40:304][128]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.40:487][146]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.40:769][180]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.41:036][212]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.41:195][231]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.41:537][272]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.41:895][315]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.42:177][349]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.42:361][371]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.42:395][375]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.47:208][952]LogCharacterMovement: AIGuiCharacter_Blueprint_C_1 is stuck and failed to move!
+[2015.06.03-14.53.47:217][953]LogCharacterMovement: AIGuiCharacter_Blueprint_C_1 is stuck and failed to move!
+[2015.06.03-14.53.47:225][954]LogCharacterMovement: AIGuiCharacter_Blueprint_C_1 is stuck and failed to move!
+[2015.06.03-14.53.47:233][955]LogCharacterMovement: AIGuiCharacter_Blueprint_C_1 is stuck and failed to move!
+[2015.06.03-14.53.53:034][651]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.55:693][970]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.55:926][998]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.56:151][ 25]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.56:484][ 65]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.56:742][ 96]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.57:026][130]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.57:218][153]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.57:476][184]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.57:509][188]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.57:776][220]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.57:976][244]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.58:143][264]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.58:367][291]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.58:635][323]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.53.58:764][326]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002ACD5CE520
+[2015.06.03-14.54.00:043][464]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.03-14.54.00:047][464]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.06.03-14.54.00:107][464]LogPlayLevel: PIE:  Blueprint regeneration took 64 ms (1 blueprints)
+[2015.06.03-14.54.00:108][464]PIE: New page: PIE session: FirstPersonExampleMap (Jun 3, 2015, 6:54:00 AM)
+[2015.06.03-14.54.00:137][464]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.03-14.54.00:137][464]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.03-14.54.00:140][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031794s)
+[2015.06.03-14.54.00:141][464]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2015.06.03-14.54.00:141][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.033188s)
+[2015.06.03-14.54.00:199][464]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.03-14.54.00:201][464]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.03-14.54.00:210][464]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.03-14.54.00:210][464]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.06.03-10.54.00
+[2015.06.03-14.54.00:211][464]LogWorld: Bringing up level for play took: 0.010513
+[2015.06.03-14.54.00:214][464]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.391
+[2015.06.03-14.54.00:237][465]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.00:399][480]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.00:658][511]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.00:925][543]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.00:958][547]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.01:283][586]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.01:600][624]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.01:866][656]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.01:899][660]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.01:933][664]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.02:158][691]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.02:192][695]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.02:341][713]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.02:632][748]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.02:850][774]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.03:066][800]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.03:241][821]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.03:549][858]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.03:882][898]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.04:058][919]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.04:200][936]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.04:483][970]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.04:517][974]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.09:033][516]LogCharacterMovement: AIGuiCharacter_Blueprint_C_1 is stuck and failed to move!
+[2015.06.03-14.54.09:041][517]LogCharacterMovement: AIGuiCharacter_Blueprint_C_1 is stuck and failed to move!
+[2015.06.03-14.54.26:804][648]LogCharacterMovement: AIGuiCharacter_Blueprint_C_1 is stuck and failed to move!
+[2015.06.03-14.54.26:812][649]LogCharacterMovement: AIGuiCharacter_Blueprint_C_1 is stuck and failed to move!
+[2015.06.03-14.54.26:921][662]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.30:087][ 42]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.30:429][ 83]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.30:662][111]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.34:846][613]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.38:571][ 60]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.38:896][ 99]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.39:046][117]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.39:255][142]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.39:496][171]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.39:830][211]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.40:155][250]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.40:187][254]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.40:255][262]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.40:480][289]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.40:788][326]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.41:004][352]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.41:163][371]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.41:463][407]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.41:530][415]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.41:762][443]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.42:029][475]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.42:372][516]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.42:696][555]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.42:896][579]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.43:222][618]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.43:405][640]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.43:538][656]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.43:705][676]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.44:005][712]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.44:039][716]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.44:346][753]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.44:672][792]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.44:838][812]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.45:155][850]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.45:188][854]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.45:388][878]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.45:513][893]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.45:546][897]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.45:839][932]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.50:667][511]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.51:234][579]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.51:492][610]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.51:817][649]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.52:076][680]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.52:367][715]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.52:584][741]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.52:700][755]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.52:734][759]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.53:042][796]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.53:276][824]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.53:503][851]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.53:728][878]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.54:036][915]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.54:145][928]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.54:520][973]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.54:870][ 15]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.55:211][ 56]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.55:528][ 94]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.55:686][113]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.56:010][152]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.56:269][183]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.56:519][213]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.56:552][217]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.56:686][233]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.56:877][256]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.57:145][288]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.57:427][322]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.57:694][354]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.54.57:818][356]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002ACD5CDEE0
+[2015.06.03-14.55.40:495][457]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap"'
+[2015.06.03-14.55.40:544][457]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+'
+[2015.06.03-14.55.42:441][457]LogSavePackage: Save=1713.830933ms
+[2015.06.03-14.55.42:441][457]LogSavePackage: Moving 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Saved/FirstPersonExampleMap8B75649A47D024B1624A0FB36B80FB11.tmp' to 'C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.06.03-14.55.42:470][457]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.875
+[2015.06.03-14.55.42:479][458]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/guillaume/Documents/Unreal Projects/Shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap"'
+[2015.06.03-14.55.42:540][465]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+'
+[2015.06.03-14.56.09:974][729]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.03-14.56.09:977][729]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.06.03-14.56.10:038][729]LogPlayLevel: PIE:  Blueprint regeneration took 64 ms (1 blueprints)
+[2015.06.03-14.56.10:038][729]PIE: New page: PIE session: FirstPersonExampleMap (Jun 3, 2015, 6:56:10 AM)
+[2015.06.03-14.56.10:068][729]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.03-14.56.10:068][729]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.03-14.56.10:071][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032042s)
+[2015.06.03-14.56.10:072][729]LogPlayLevel: PIE: World Init took: (0.001155s)
+[2015.06.03-14.56.10:072][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.033439s)
+[2015.06.03-14.56.10:132][729]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.03-14.56.10:134][729]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.03-14.56.10:144][729]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.03-14.56.10:144][729]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.06.03-10.56.10
+[2015.06.03-14.56.10:145][729]LogWorld: Bringing up level for play took: 0.010294
+[2015.06.03-14.56.10:147][729]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.325
+[2015.06.03-14.56.10:170][730]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.10:304][743]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.10:414][754]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.10:709][787]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.11:041][827]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.11:217][848]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.11:476][879]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.11:733][910]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.11:767][914]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.11:801][918]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.12:017][944]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.12:309][979]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.12:459][997]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.12:633][ 18]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.12:817][ 40]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.13:092][ 73]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.17:009][543]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.26:350][664]LogCharacterMovement: AIGuiCharacter_Blueprint_C_1 is stuck and failed to move!
+[2015.06.03-14.56.26:576][691]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.26:970][738]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.06.03-14.56.26:978][739]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.06.03-14.56.26:986][740]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.06.03-14.56.26:995][741]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.06.03-14.56.29:486][ 40]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.29:627][ 57]LogBlueprintUserMessages: Moving Random
+[2015.06.03-14.56.29:916][ 78]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A91D4B6A0
+[2015.06.03-14.59.28:197][341]Cmd: QUIT_EDITOR
+[2015.06.03-14.59.28:384][341]LogExit: Preparing to exit.
+[2015.06.03-14.59.28:955][341]LogExit: Editor shut down
+[2015.06.03-14.59.28:955][341]LogExit: Transaction tracking system shut down
+[2015.06.03-14.59.28:957][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A9E8AEA20
+[2015.06.03-14.59.28:960][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A925CFA60
+[2015.06.03-14.59.28:960][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A9669FBA0
+[2015.06.03-14.59.28:961][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A97B48F40
+[2015.06.03-14.59.28:961][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A97A98C20
+[2015.06.03-14.59.28:961][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A97A989A0
+[2015.06.03-14.59.29:208][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002A84CF9800
+[2015.06.03-14.59.29:208][341]LogExit: Object subsystem successfully closed.
+[2015.06.03-14.59.29:247][341]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.06.03-14.59.29:247][341]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.06.03-14.59.29:247][341]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.06.03-14.59.29:247][341]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.06.03-14.59.29:247][341]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.06.03-14.59.29:247][341]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.06.03-14.59.29:247][341]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.06.03-14.59.29:247][341]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.06.03-14.59.29:248][341]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.06.03-14.59.29:310][341]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.06.03-14.59.29:310][341]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.06.03-14.59.29:310][341]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.06.03-14.59.29:310][341]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.06.03-14.59.29:310][341]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.06.03-14.59.29:311][341]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.06.03-14.59.29:311][341]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.06.03-14.59.29:311][341]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.06.03-14.59.29:311][341]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.06.03-14.59.29:311][341]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.06.03-14.59.29:311][341]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.06.03-14.59.29:311][341]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.06.03-14.59.29:312][341]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.06.03-14.59.29:312][341]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.06.03-14.59.29:312][341]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.06.03-14.59.29:312][341]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.06.03-14.59.29:312][341]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.06.03-14.59.29:312][341]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.06.03-14.59.29:312][341]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.06.03-14.59.29:379][341]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.06.03-14.59.29:379][341]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.06.03-14.59.29:379][341]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.06.03-14.59.29:381][341]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.06.03-14.59.29:415][341]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.06.03-14.59.29:416][341]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.06.03-14.59.29:416][341]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.06.03-14.59.29:416][341]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.06.03-14.59.29:416][341]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.06.03-14.59.29:416][341]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.06.03-14.59.29:416][341]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.06.03-14.59.29:416][341]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.06.03-14.59.29:416][341]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.06.03-14.59.29:416][341]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.06.03-14.59.29:416][341]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.06.03-14.59.29:416][341]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.06.03-14.59.29:417][341]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.06.03-14.59.29:417][341]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.06.03-14.59.29:417][341]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.06.03-14.59.29:518][341]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.06.03-14.59.29:518][341]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.06.03-14.59.29:520][341]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.06.03-14.59.29:523][341]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.06.03-14.59.29:523][341]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.06.03-14.59.29:523][341]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.06.03-14.59.29:523][341]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.06.03-14.59.29:523][341]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.06.03-14.59.29:523][341]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.06.03-14.59.29:523][341]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.06.03-14.59.29:523][341]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.06.03-14.59.29:523][341]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.06.03-14.59.29:523][341]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.06.03-14.59.29:543][341]LogDerivedDataCache: Shutdown
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.03-14.59.29:543][341]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.03-14.59.29:546][341]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.03-14.59.29:546][341]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.03-14.59.29:546][341]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.03-14.59.29:546][341]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.03-14.59.29:546][341]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.03-14.59.29:546][341]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.03-14.59.29:546][341]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.03-14.59.29:546][341]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.03-14.59.29:546][341]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.03-14.59.29:546][341]LogExit: Exiting.
+[2015.06.03-14.59.29:550][341]Log file closed, 06/03/15 10:59:29
